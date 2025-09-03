@@ -1,3 +1,5 @@
+![Header](./github-header.png)
+
 # 👋 Hi, I'm Adrijan Petek  
 
 🚀 **Builder | Full-Stack Developer | Crypto Enthusiast**  
