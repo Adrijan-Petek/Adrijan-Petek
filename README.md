@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Adrijan Petek  
 
 🚀 **Builder | Python Learner | Crypto Enthusiast**  
-Currently working on [CryptoMobb](https://www.cryptomobb.xyz) 🪙 and experimenting with Farcaster mini apps 🌐.  
+Currently working on [CryptoMobb](https://www.cryptomobb.xyz) and experimenting with Farcaster mini apps 🌐.  
 I also run a learning repo 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners) — documenting my step-by-step Python journey.  
 
 ---
