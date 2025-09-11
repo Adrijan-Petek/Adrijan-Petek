@@ -3,7 +3,7 @@
 # 👋 Hi, I'm Adrijan Petek  
 
 🚀 **Builder | Full-Stack Developer | Crypto Enthusiast**  
-Currently working on [CryptoMobb](https://www.cryptomobb.xyz) and experimenting with Farcaster mini apps 🌐.  
+Currently working on [Mobb Chain](https://www.mobbchain.xyz) and experimenting with Farcaster mini apps 🌐.  
 I document my learning journey in Python, Solidity, Web Development, and Blockchain projects in this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
 
 ---
