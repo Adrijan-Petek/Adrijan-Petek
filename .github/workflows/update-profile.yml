@@ -4,6 +4,16 @@ on:
   schedule:
     - cron: '0 0 * * *'  # Runs daily at midnight UTC
   workflow_dispatch:      # Allows manual triggering
+  push:
+    paths:
+      - 'templates/**'
+      - 'assets/**'
+      - 'img/**'
+      - 'config.json'
+      - 'profile_generator.py'
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -26,7 +36,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git commit -m "Update README" || echo "No changes to commit"
+          git commit -m "🔄 Daily README Update - $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
