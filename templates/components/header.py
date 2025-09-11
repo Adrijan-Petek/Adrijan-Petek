@@ -113,6 +113,8 @@ def generate(config, daily_content):
 Currently working on [Mobb Chain]({config['user']['website']}) and experimenting with Farcaster mini apps 🌐.  
 I document my learning journey in Python, Solidity, Web Development, and Blockchain projects in this repository and others 📂 [python-beginners]({config['user']['learning_repo']}).  
 
+**Connect with me:** [X/Twitter]({config['social']['x']}) • [LinkedIn]({config['social']['linkedin']}) • [Farcaster]({config['social']['farcaster']})
+
 </div>
 
 ---
