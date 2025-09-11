@@ -1,11 +1,6 @@
 def get_projects():
     return [
         {
-            "name": "CryptoMobb",
-            "url": "https://www.cryptomobb.xyz",
-            "description": "Crypto community and learning platform"
-        },
-        {
             "name": "Python Beginners",
             "url": "https://github.com/Adrijan-Petek/python-beginners",
             "description": "Step-by-step Python tutorials"
