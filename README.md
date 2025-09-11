@@ -26,6 +26,8 @@
 Currently working on [Mobb Chain](https://www.mobbchain.xyz) and experimenting with Farcaster mini apps 🌐.  
 I document my learning journey in Python, Solidity, Web Development, and Blockchain projects in this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
 
+**Connect with me:** [X/Twitter](https://x.com/adrijan_petek) • [LinkedIn](https://linkedin.com/in/adrijan-petek) • [Farcaster](https://farcaster.xyz/adrijan)
+
 </div>
 
 ---
@@ -101,5 +103,5 @@ Try implementing a **API endpoint** using **Solidity**!
 
 ---
 
-⭐️ **Last Updated**: 2025-09-11 17:40:37  
+⭐️ **Last Updated**: 2025-09-11 17:41:36  
 *This README updates daily with new content!* ✨
