@@ -1,4 +1,8 @@
 
+<div align="center">
+  <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&q=80" alt="Header" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.4);" />
+</div>
+
 
   ____            _        _ 
  |  _ \ __ _ _ __| | __   / |
@@ -68,17 +72,21 @@ I document my learning journey in Python, Solidity, Web Development, and Blockch
 ---
 
 ## ✨ Fun Section
-![Random Cat](https://cataas.com/cat/png)  
-*"My first programming language was Python 🐍"*  
 
-**Quote of the Day**: "First, solve the problem. Then, write the code." 💭
+![Random Cat](https://media.giphy.com/media/3o72FfM5HJydzafgUE/giphy.gif)  
+*"I'm a night owl coder 🌙"*  
+
+**Quote of the Day**: "The most disastrous thing that you can ever learn is your first programming language." 💭
 
 ### 🎲 Today's Developer Challenge:
-Try implementing a algorithm using Solidity!
+Try implementing a **API endpoint** using **Solidity**!
+
+### 🔥 Developer Meme
+![Dev Meme](https://programming-memes-images.s3.amazonaws.com/meme-27.jpg)
 
 ---
 
 ---
 
-⭐️ **Last Updated**: 2025-09-11 16:54:32  
+⭐️ **Last Updated**: 2025-09-11 17:12:31  
 *This README updates daily with new content!* ✨
