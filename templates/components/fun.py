@@ -1,3 +1,5 @@
+import random
+
 def get_fun_facts():
     return [
         "I believe every project gets better with memes 😎",
