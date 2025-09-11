@@ -7,9 +7,9 @@ Generates a unique README.md every day with different content
 import os
 import json
 import random
+import glob
 from datetime import datetime
 from templates.components import header, learning, projects, stats, fun
-from assets import ascii_art
 
 def load_config():
     """Load configuration from JSON file"""
