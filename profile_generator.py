@@ -27,7 +27,7 @@ def load_config():
             },
             "social": {
                 "farcaster": "https://farcaster.xyz/adrijan",
-                "twitter": "https://twitter.com/yourhandle",
+                "x": "https://x.com/adrijan_petek",
                 "linkedin": "https://linkedin.com/in/yourprofile"
             }
         }
@@ -41,8 +41,7 @@ def generate_daily_content():
     random.seed(day_of_year)
     
     return {
-        "ascii_art": random.choice(ascii_art.get_arts()),
-        "color_theme": random.choice(["tokyonight", "radical", "dark", "merko"]),
+        "color_theme": random.choice(["tokyonight", "radical", "dark", "merko", "onedark"]),
         "fun_fact": random.choice(fun.get_fun_facts()),
         "daily_quote": random.choice(fun.get_quotes()),
         "spotlight_project": random.choice(projects.get_projects())["name"],
