@@ -1,5 +1,4 @@
 def generate(config, daily_content):
-    # Fix VS Code badge and other tech stack badges
     tech_badges = []
     for tech in config['tech_stack']:
         if tech == "VS Code":
@@ -11,9 +10,23 @@ def generate(config, daily_content):
     
     tech_stack = " ".join(tech_badges)
     
+    # Social badges
+    social_badges = []
+    if "x" in config['social']:
+        social_badges.append(f"[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)]({config['social']['x']})")
+    if "linkedin" in config['social']:
+        social_badges.append(f"[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]({config['social']['linkedin']})")
+    if "farcaster" in config['social']:
+        social_badges.append(f"[![Farcaster](https://img.shields.io/badge/Farcaster-8A63D2?style=for-the-badge&logo=farcaster&logoColor=white)]({config['social']['farcaster']})")
+    
+    social_links = " ".join(social_badges)
+    
     return f"""
 ## 🛠️ Tech Stack
 {tech_stack}
+
+## 🌐 Connect With Me
+{social_links}
 
 ## 📈 GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username={config['user']['github']}&show_icons=true&theme={daily_content['color_theme']}&count_private=true)  
