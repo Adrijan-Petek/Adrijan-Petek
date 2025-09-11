@@ -60,16 +60,15 @@ I document my learning journey in Python, Solidity, Web Development, and Blockch
 - ➡️ NFTs
 - ⏳ Smart Contract Security
 
-**Today's Focus**: React Fundamentals 🎯
+**Today's Focus**: Smart Contract Security 🎯
 
 ---
 
 ## 🚀 Projects
 
-- **[CryptoMobb](https://www.cryptomobb.xyz)** – Crypto community and learning platform
 - **[Python Beginners](https://github.com/Adrijan-Petek/python-beginners)** – Step-by-step Python tutorials
-- **[Farcaster Mini Apps](https://farcaster.xyz/adrijan)** 🔥 – Exploring decentralized applications
-- **[Mobb Chain](https://www.mobbchain.xyz)** – Blockchain innovation platform
+- **[Farcaster Mini Apps](https://farcaster.xyz/adrijan)** – Exploring decentralized applications
+- **[Mobb Chain](https://www.mobbchain.xyz)** 🔥 – Blockchain innovation platform
 
 ---
 
@@ -103,5 +102,5 @@ Try implementing a **API endpoint** using **Solidity**!
 
 ---
 
-⭐️ **Last Updated**: 2025-09-11 17:41:36  
+⭐️ **Last Updated**: 2025-09-11 17:43:15  
 *This README updates daily with new content!* ✨
