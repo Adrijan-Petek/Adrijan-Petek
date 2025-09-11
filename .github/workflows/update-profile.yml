@@ -10,12 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
+          
       - name: Generate README
         run: python profile_generator.py
+        
       - name: Commit and push
         run: |
           git config --local user.email "action@github.com"
@@ -23,3 +28,5 @@ jobs:
           git add README.md
           git commit -m "Update README" || echo "No changes to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
