@@ -1,0 +1,27 @@
+name: Daily README Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # every day at UTC midnight
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install Pillow
+      - name: Generate README
+        run: python daily_readme.py
+      - name: Commit & Push
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add README.md
+          git commit -m "Daily README update"
+          git push
