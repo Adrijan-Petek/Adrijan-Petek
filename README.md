@@ -1,15 +1,15 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner (4).png" alt="Header Banner" style="
+  <img src="img/github-header-banner (17).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border: 3px dashed #6366F1;
     
-    
-    filter: none;
+    filter: saturate(1.2);
     margin-bottom: 1.5rem;
   " />
 </div>
@@ -17,11 +17,11 @@
 
 <div align="center">
 
-🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰
+🚀💫🚀💫🚀💫🚀💫🚀💫🚀💫🚀💫🚀💫🚀💫🚀💫
 
 # 👋 Hi, I'm Adrijan Petek
 
-⚡ **Full-Stack Developer & Web3 Explorer**
+🌐 **Creating Innovative Digital Solutions**
 
 Currently working on [Mobb Chain](https://www.mobbchain.xyz) and experimenting with Farcaster mini apps 🌐.  
 I document my learning journey in Python, Solidity, Web Development, and Blockchain projects in this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
@@ -60,7 +60,7 @@ I document my learning journey in Python, Solidity, Web Development, and Blockch
 - ➡️ NFTs
 - ⏳ Smart Contract Security
 
-**Today's Focus**: TypeScript Advanced Patterns 🎯
+**Today's Focus**: Web3 Integration 🎯
 
 ---
 
@@ -80,30 +80,30 @@ I document my learning journey in Python, Solidity, Web Development, and Blockch
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/adrijan_petek) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adrijan-petek) [![Farcaster](https://img.shields.io/badge/Farcaster-8A63D2?style=for-the-badge&logo=farcaster&logoColor=white)](https://farcaster.xyz/adrijan)
 
 ## 📈 GitHub Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=tokyonight&count_private=true)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=tokyonight&hide=html,css)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=merko&count_private=true)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=merko&hide=html,css)
 
 ---
 
 ## ✨ Fun Section
 
-### 😂 Programming humor of the day!
-![Dev Meme](https://i.imgur.com/B0qYQaV.png)  
+### 😺 Here's your daily dose of cuteness!
+![Daily Cat](https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif)  
 
-*"I enjoy contributing to open source projects"*  
+*"I'm passionate about decentralized technologies"*  
 
-**💭 Quote of the Day**: "The only way to learn programming is by writing programs."
+**💭 Quote of the Day**: "Truth can only be found in one place: the code."
 
 ### 🎲 Today's Developer Challenge:
 **Build a UI component** using **TypeScript**  
 *Create a responsive React component*
 
 ### 🔥 Coding Tip:
-Take breaks to avoid burnout.
+Use version control for every project.
 
 ---
 
 ---
 
-⭐️ **Last Updated**: 2025-09-12 01:51:03  
+⭐️ **Last Updated**: 2025-09-13 01:46:22  
 *This README updates daily with new content!* ✨
