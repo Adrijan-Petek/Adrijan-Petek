@@ -36,36 +36,61 @@ def generate(config, daily_content):
 ## 📈 GitHub Stats
 <div align="center">
 
-<!-- GitHub Stats and Top Languages in same row -->
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username={config['user']['github']}&show_icons=true&theme={daily_content['color_theme']}&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub Stats" />
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={config['user']['github']}&layout=compact&theme={daily_content['color_theme']}&hide_border=true&bg_color=00000000&hide=html,css" alt="Top Languages" />
-    </td>
-  </tr>
-</table>
+<!-- GitHub Stats -->
+<img src="https://github-readme-stats.vercel.app/api?username={config['user']['github']}&show_icons=true&theme={daily_content['color_theme']}&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub Stats" />
 
-<!-- GitHub Streak with additional stats to fill space -->
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user={config['user']['github']}&theme={daily_content['color_theme']}&hide_border=true&background=00000000" alt="GitHub Streak" />
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username={config['user']['github']}&show_icons=false&theme={daily_content['color_theme']}&hide_border=true&bg_color=00000000&hide_title=true&hide_rank=true&count_private=true" alt="GitHub Stats Compact" />
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={config['user']['github']}&layout=donut&theme={daily_content['color_theme']}&hide_border=true&bg_color=00000000&hide=html,css" alt="Top Languages Donut" />
-    </td>
-  </tr>
-</table>
+<!-- Contribution Graph (replacing streak) -->
+<div align="center" style="margin: 20px 0;">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username={config['user']['github']}&theme={daily_content['color_theme']}&hide_border=true&bg_color=00000000&height=300" alt="GitHub Contribution Graph" />
+</div>
 
-<!-- Activity Graph -->
-<div align="center" style="margin-top: 20px;">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username={config['user']['github']}&theme={daily_content['color_theme']}&hide_border=true&bg_color=00000000" alt="GitHub Activity Graph" />
+<!-- Custom Achievement Badges (replacing languages) -->
+<div align="center" style="margin: 20px 0;">
+  <h3>🏆 Achievements & Skills</h3>
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Full_Stack-Expert-2563EB?style=for-the-badge&logo=stackshare&logoColor=white" alt="Full Stack Expert" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Blockchain-Web3-7C3AED?style=for-the-badge&logo=ethereum&logoColor=white" alt="Blockchain Developer" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/AI_ML-Advanced-16A34A?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI/ML Expert" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/DevOps-Professional-EA580C?style=for-the-badge&logo=docker&logoColor=white" alt="DevOps Professional" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Cloud_AWS-Expert-0891B2?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS Expert" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Security-Advanced-BE123C?style=for-the-badge&logo=shield&logoColor=white" alt="Security Expert" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- Coding Activity Metrics -->
+<div align="center" style="margin: 20px 0;">
+  <h3>📊 Coding Activity</h3>
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Commits-500%2B-65A30D?style=for-the-badge&logo=git&logoColor=white" alt="Commits" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Projects-25%2B-C2410C?style=for-the-badge&logo=github&logoColor=white" alt="Projects" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Contributions-100%2B-7C2D12?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Contributions" />
+      </td>
+    </tr>
+  </table>
+</div>
+
 </div>
 
 </div>
