@@ -1,4 +1,14 @@
 def generate(config, daily_content):
+    # Import contribution color function
+    from .header import get_daily_contribution_color
+    import random
+    from datetime import datetime
+    
+    # Get contribution color
+    today = datetime.now()
+    day_of_year = today.timetuple().tm_yday
+    random.seed(day_of_year)
+    contribution_color = get_daily_contribution_color()
     tech_badges = []
     for tech in config.get('tech_stack', []):
         if tech == "VS Code":
@@ -50,7 +60,12 @@ def generate(config, daily_content):
 
 <!-- Contribution Graph (replacing streak) -->
 <div align="center" style="margin: 20px 0;">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username={config['user']['github']}&theme={daily_content['color_theme']}&hide_border=true&bg_color=00000000&height=300" alt="GitHub Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username={config['user']['github']}&theme={contribution_color}&hide_border=true&bg_color=00000000&height=300" alt="GitHub Contribution Graph" />
+</div>
+
+<!-- GitHub Streak -->
+<div align="center" style="margin: 20px 0;">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user={config['user']['github']}&theme={daily_content['color_theme']}&hide_border=true&background=00000000" alt="GitHub Streak" />
 </div>
 
 <!-- Custom Achievement Badges (replacing languages) -->

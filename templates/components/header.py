@@ -76,7 +76,45 @@ def get_daily_typing_color():
         "6B21A8",  # Violet
         "0369A1"   # Sky blue
     ]
+def get_daily_contribution_color():
+    """Return different contribution graph colors each day"""
+    colors = [
+        "github",      # Default GitHub theme
+        "github-light", # Light theme
+        "dark",        # Dark theme
+        "merko",       # Merko theme
+        "gruvbox",     # Gruvbox theme
+        "tokyo-night", # Tokyo Night theme
+        "onedark",     # One Dark theme
+        "cobalt",      # Cobalt theme
+        "synthwave",   # Synthwave theme
+        "high-contrast", # High Contrast theme
+        "dracula",     # Dracula theme
+        "prussian",    # Prussian theme
+        "monokai",     # Monokai theme
+        "vue",         # Vue theme
+        "vue-dark",    # Vue Dark theme
+        "shades-of-purple", # Shades of Purple theme
+        "nightowl",    # Night Owl theme
+        "buefy",       # Buefy theme
+        "blue-green",  # Blue Green theme
+        "algolia",     # Algolia theme
+        "great-gatsby", # Great Gatsby theme
+        "darcula",     # Darcula theme
+        "bear",        # Bear theme
+        "solarized-dark", # Solarized Dark theme
+        "solarized-light", # Solarized Light theme
+        "chartreuse-dark", # Chartreuse Dark theme
+        "nord",        # Nord theme
+        "gotham",      # Gotham theme
+        "material",    # Material theme
+        "outlook",     # Outlook theme
+        "codeSTACKr",  # CodeSTACKr theme
+        "rose-pine",   # Rose Pine theme
+        "catppuccin-mocha" # Catppuccin Mocha theme
+    ]
     return random.choice(colors)
+
 def get_daily_typing_lines():
     """Return different typing animation lines each day"""
     line_sets = [
@@ -90,6 +128,45 @@ def get_daily_typing_lines():
     ]
     return random.choice(line_sets)
 
+def get_daily_contribution_color():
+    """Return different contribution graph colors each day"""
+    colors = [
+        "github",      # Default GitHub theme
+        "github-light", # Light theme
+        "dark",        # Dark theme
+        "merko",       # Merko theme
+        "gruvbox",     # Gruvbox theme
+        "tokyo-night", # Tokyo Night theme
+        "onedark",     # One Dark theme
+        "cobalt",      # Cobalt theme
+        "synthwave",   # Synthwave theme
+        "high-contrast", # High Contrast theme
+        "dracula",     # Dracula theme
+        "prussian",    # Prussian theme
+        "monokai",     # Monokai theme
+        "vue",         # Vue theme
+        "vue-dark",    # Vue Dark theme
+        "shades-of-purple", # Shades of Purple theme
+        "nightowl",    # Night Owl theme
+        "buefy",       # Buefy theme
+        "blue-green",  # Blue Green theme
+        "algolia",     # Algolia theme
+        "great-gatsby", # Great Gatsby theme
+        "darcula",     # Darcula theme
+        "bear",        # Bear theme
+        "solarized-dark", # Solarized Dark theme
+        "solarized-light", # Solarized Light theme
+        "chartreuse-dark", # Chartreuse Dark theme
+        "nord",        # Nord theme
+        "gotham",      # Gotham theme
+        "material",    # Material theme
+        "outlook",     # Outlook theme
+        "codeSTACKr",  # CodeSTACKr theme
+        "rose-pine",   # Rose Pine theme
+        "catppuccin-mocha" # Catppuccin Mocha theme
+    ]
+    return random.choice(colors)
+
 def generate(config, daily_content):
     today = datetime.now()
     day_of_year = today.timetuple().tm_yday
@@ -100,6 +177,7 @@ def generate(config, daily_content):
     daily_badges = get_daily_badges()
     typing_lines = get_daily_typing_lines()
     typing_color = get_daily_typing_color()
+    contribution_color = get_daily_contribution_color()
     
     # Get random banner image
     banner_path = get_random_banner()
