@@ -36,8 +36,17 @@ def generate(config, daily_content):
 ## 📈 GitHub Stats
 <div align="center">
 
-<!-- GitHub Stats -->
-<img src="https://github-readme-stats.vercel.app/api?username={config['user']['github']}&show_icons=true&theme={daily_content['color_theme']}&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub Stats" />
+<!-- GitHub Stats and Top Languages in same row -->
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username={config['user']['github']}&show_icons=true&theme={daily_content['color_theme']}&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub Stats" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={config['user']['github']}&layout=compact&theme={daily_content['color_theme']}&hide_border=true&bg_color=00000000&hide=html,css" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
 
 <!-- Contribution Graph (replacing streak) -->
 <div align="center" style="margin: 20px 0;">
