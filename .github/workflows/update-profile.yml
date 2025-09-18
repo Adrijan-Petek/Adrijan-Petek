@@ -1,0 +1,40 @@
+name: Update Profile README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  workflow_dispatch:      # Allows manual triggering
+  push:
+    paths:
+      - 'templates/**'
+      - 'assets/**'
+      - 'img/**'
+      - 'config.json'
+      - 'profile_generator.py'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          
+      - name: Generate README
+        run: python profile_generator.py
+        
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "🔄 Daily README Update - $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push
