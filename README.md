@@ -5,7 +5,7 @@
 
 
 <div align="center">
-  <img src="img\github-header-banner (7).png" alt="Header Banner" style="
+  <img src="img/github-header-banner (18).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
@@ -110,9 +110,5 @@ I document my learning journey in Python, Solidity, Web Development, and Blockch
 
 ---
 
-<<<<<<< HEAD
-⭐️ **Last Updated**: 2025-09-18 21:09:35  
-=======
-⭐️ **Last Updated**: 2025-09-18 23:18:26  
->>>>>>> 77b100a (Add daily changing colors to typing animation)
+⭐️ **Last Updated**: 2025-09-18 21:20:31  
 *This README updates daily with new content!* ✨
