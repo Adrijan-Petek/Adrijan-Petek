@@ -52,6 +52,31 @@ def get_daily_badges():
     ]
     return random.choice(badge_sets)
 
+def get_daily_typing_color():
+    """Return different typing animation colors each day"""
+    colors = [
+        "2563EB",  # Blue
+        "DC2626",  # Red
+        "16A34A",  # Green
+        "EA580C",  # Orange
+        "7C3AED",  # Purple
+        "0891B2",  # Cyan
+        "BE123C",  # Rose
+        "65A30D",  # Lime
+        "C2410C",  # Amber
+        "7C2D12",  # Brown
+        "365314",  # Olive
+        "1E40AF",  # Indigo
+        "7E22CE",  # Fuchsia
+        "0F766E",  # Teal
+        "92400E",  # Yellow
+        "B91C1C",  # Crimson
+        "15803D",  # Emerald
+        "C2410C",  # Orange-red
+        "6B21A8",  # Violet
+        "0369A1"   # Sky blue
+    ]
+    return random.choice(colors)
 def get_daily_typing_lines():
     """Return different typing animation lines each day"""
     line_sets = [
@@ -74,6 +99,7 @@ def generate(config, daily_content):
     daily_intro = get_daily_intro()
     daily_badges = get_daily_badges()
     typing_lines = get_daily_typing_lines()
+    typing_color = get_daily_typing_color()
     
     # Get random banner image
     banner_path = get_random_banner()
@@ -113,7 +139,7 @@ def generate(config, daily_content):
     
     return f"""
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=2563EB&center=true&vCenter=true&width=940&lines={typing_lines}" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color={typing_color}&center=true&vCenter=true&width=940&lines={typing_lines}" alt="Typing SVG" />
 </p>
 
 {banner_html}

@@ -35,13 +35,39 @@ def generate(config, daily_content):
 
 ## 📈 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username={config['user']['github']}&show_icons=true&theme={daily_content['color_theme']}&count_private=true&hide_border=true" alt="GitHub Stats" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={config['user']['github']}&layout=compact&theme={daily_content['color_theme']}&hide_border=true&hide=html,css" alt="Top Languages" />
-  <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user={config['user']['github']}&theme={daily_content['color_theme']}&hide_border=true" alt="GitHub Streak" />
-  <br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username={config['user']['github']}&theme={daily_content['color_theme']}&hide_border=true" alt="GitHub Activity Graph" />
+
+<!-- GitHub Stats and Top Languages in same row -->
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username={config['user']['github']}&show_icons=true&theme={daily_content['color_theme']}&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub Stats" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={config['user']['github']}&layout=compact&theme={daily_content['color_theme']}&hide_border=true&bg_color=00000000&hide=html,css" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
+
+<!-- GitHub Streak with additional stats to fill space -->
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user={config['user']['github']}&theme={daily_content['color_theme']}&hide_border=true&background=00000000" alt="GitHub Streak" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username={config['user']['github']}&show_icons=false&theme={daily_content['color_theme']}&hide_border=true&bg_color=00000000&hide_title=true&hide_rank=true&count_private=true" alt="GitHub Stats Compact" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={config['user']['github']}&layout=donut&theme={daily_content['color_theme']}&hide_border=true&bg_color=00000000&hide=html,css" alt="Top Languages Donut" />
+    </td>
+  </tr>
+</table>
+
+<!-- Activity Graph -->
+<div align="center" style="margin-top: 20px;">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username={config['user']['github']}&theme={daily_content['color_theme']}&hide_border=true&bg_color=00000000" alt="GitHub Activity Graph" />
+</div>
+
 </div>
 
 ---

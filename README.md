@@ -1,11 +1,11 @@
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=2563EB&center=true&vCenter=true&width=940&lines=Generate+Beautiful+READMEs;Professional+Documentation;Automated+Repository+Analysis;Social+Media+Integration" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=C2410C&center=true&vCenter=true&width=940&lines=Generate+Beautiful+READMEs;Professional+Documentation;Automated+Repository+Analysis;Social+Media+Integration" alt="Typing SVG" />
 </p>
 
 
 <div align="center">
-  <img src="img/github-header-banner (12).png" alt="Header Banner" style="
+  <img src="img\github-header-banner (7).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
@@ -71,18 +71,48 @@ I document my learning journey in Python, Solidity, Web Development, and Blockch
 
 ## 📈 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=merko&count_private=true&hide_border=true" alt="GitHub Stats" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=merko&hide_border=true&hide=html,css" alt="Top Languages" />
-  <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Adrijan-Petek&theme=merko&hide_border=true" alt="GitHub Streak" />
-  <br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=merko&hide_border=true" alt="GitHub Activity Graph" />
+
+<!-- GitHub Stats and Top Languages in same row -->
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=merko&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub Stats" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=merko&hide_border=true&bg_color=00000000&hide=html,css" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
+
+<!-- GitHub Streak with additional stats to fill space -->
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Adrijan-Petek&theme=merko&hide_border=true&background=00000000" alt="GitHub Streak" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=false&theme=merko&hide_border=true&bg_color=00000000&hide_title=true&hide_rank=true&count_private=true" alt="GitHub Stats Compact" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=donut&theme=merko&hide_border=true&bg_color=00000000&hide=html,css" alt="Top Languages Donut" />
+    </td>
+  </tr>
+</table>
+
+<!-- Activity Graph -->
+<div align="center" style="margin-top: 20px;">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=merko&hide_border=true&bg_color=00000000" alt="GitHub Activity Graph" />
+</div>
+
 </div>
 
 ---
 
 ---
 
+<<<<<<< HEAD
 ⭐️ **Last Updated**: 2025-09-18 21:09:35  
+=======
+⭐️ **Last Updated**: 2025-09-18 23:18:26  
+>>>>>>> 77b100a (Add daily changing colors to typing animation)
 *This README updates daily with new content!* ✨
