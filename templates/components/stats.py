@@ -82,7 +82,7 @@ def generate(config, daily_content):
 
 ### 🔥 Contribution Streak
 
-![GitHub Streak](https://streak-stats.demolab.com/?user={github_user}&theme={theme})
+[![GitHub Streak](https://streak-stats.demolab.com/?user={github_user}&theme={theme})](https://git.io/streak-stats)
 
 ### 📈 Contribution Activity
 

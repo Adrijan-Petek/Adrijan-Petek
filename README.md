@@ -101,7 +101,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ### 🔥 Contribution Streak
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=Adrijan-Petek&theme=onedark)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Adrijan-Petek&theme=onedark)](https://git.io/streak-stats)
 
 ### 📈 Contribution Activity
 
@@ -170,5 +170,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-11-24 14:03:12  
+⭐️ **Last Updated**: 2025-11-24 14:04:39  
 *This README updates daily with new content!* ✨
