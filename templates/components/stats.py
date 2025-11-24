@@ -70,30 +70,30 @@ def generate(config, daily_content):
 
 </div>
 
-## 📈 GitHub Analytics
+## 📈 GitHub Stats
 
 <div align="center">
 
-### 📊 GitHub Stats
+### 📊 GitHub Overview
 
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username={github_user}&show_icons=true&theme={theme}&count_private=true&hide_border=true&bg_color=00000000&text_color=ffffff&title_color=58a6ff&icon_color=79c0ff" alt="GitHub Stats" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api?username={github_user}&show_icons=true&theme={theme}&count_private=true&hide_border=true&include_all_commits=true" alt="GitHub Stats" width="100%" />
     </td>
     <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={github_user}&layout=compact&theme={theme}&hide_border=true&bg_color=00000000&text_color=ffffff&title_color=58a6ff&langs_count=10" alt="Top Languages" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={github_user}&layout=compact&theme={theme}&hide_border=true&langs_count=8" alt="Top Languages" width="100%" />
     </td>
   </tr>
 </table>
 
 ### 🔥 Contribution Streak
 
-<img width="100%" src="https://streak-stats.demolab.com/?user={github_user}&theme={theme}&hide_border=false" alt="GitHub Streak" />
+<img width="100%" src="https://streak-stats.demolab.com/?user={github_user}&theme={theme}&hide_border=true" alt="GitHub Streak" />
 
-### 📈 Contribution Graph
+### 📈 Contribution Activity
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username={github_user}&theme={contribution_color}&hide_border=true&hide_title=false&area=true&custom_title=GitHub%20Contribution%20Graph" alt="GitHub Contribution Graph" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username={github_user}&theme={contribution_color}&hide_border=true&area=true" alt="GitHub Contribution Activity" />
 
 ### 🏆 Achievements & Expertise
 

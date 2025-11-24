@@ -89,30 +89,30 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 </div>
 
-## 📈 GitHub Analytics
+## 📈 GitHub Stats
 
 <div align="center">
 
-### 📊 GitHub Stats
+### 📊 GitHub Overview
 
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=onedark&count_private=true&hide_border=true&bg_color=00000000&text_color=ffffff&title_color=58a6ff&icon_color=79c0ff" alt="GitHub Stats" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=onedark&count_private=true&hide_border=true&include_all_commits=true" alt="GitHub Stats" width="100%" />
     </td>
     <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=onedark&hide_border=true&bg_color=00000000&text_color=ffffff&title_color=58a6ff&langs_count=10" alt="Top Languages" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=onedark&hide_border=true&langs_count=8" alt="Top Languages" width="100%" />
     </td>
   </tr>
 </table>
 
 ### 🔥 Contribution Streak
 
-<img width="100%" src="https://streak-stats.demolab.com/?user=Adrijan-Petek&theme=onedark&hide_border=false" alt="GitHub Streak" />
+<img width="100%" src="https://streak-stats.demolab.com/?user=Adrijan-Petek&theme=onedark&hide_border=true" alt="GitHub Streak" />
 
-### 📈 Contribution Graph
+### 📈 Contribution Activity
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=catppuccin-mocha&hide_border=true&hide_title=false&area=true&custom_title=GitHub%20Contribution%20Graph" alt="GitHub Contribution Graph" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=catppuccin-mocha&hide_border=true&area=true" alt="GitHub Contribution Activity" />
 
 ### 🏆 Achievements & Expertise
 
@@ -177,5 +177,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-11-24 13:39:59  
+⭐️ **Last Updated**: 2025-11-24 13:41:29  
 *This README updates daily with new content!* ✨
