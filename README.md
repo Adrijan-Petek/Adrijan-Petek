@@ -89,77 +89,87 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 </div>
 
-## 📈 GitHub Stats
+## 📈 GitHub Analytics
+
 <div align="center">
 
-<!-- GitHub Stats and Top Languages in same row -->
+### 📊 GitHub Stats & Activity
+
 <table>
   <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=onedark&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub Stats" />
+    <td width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=onedark&count_private=true&hide_border=false&hide=contribs,prs&card_width=400" alt="GitHub Stats" />
     </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=onedark&hide_border=true&bg_color=00000000&hide=html,css" alt="Top Languages" />
+    <td width="50%">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=onedark&hide_border=false&langs_count=8" alt="Top Languages" />
     </td>
   </tr>
 </table>
 
-<!-- Contribution Graph -->
-<div align="center" style="margin: 20px 0;">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=catppuccin-mocha&hide_border=true&bg_color=00000000&height=300" alt="GitHub Contribution Graph" />
-</div>
+### 🔥 Contribution Streak
 
-<!-- GitHub Streak -->
-<div align="center" style="margin: 20px 0;">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Adrijan-Petek&theme=onedark&hide_border=true&background=00000000" alt="GitHub Streak" />
-</div>
+<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Adrijan-Petek&theme=onedark&hide_border=false&background=transparent" alt="GitHub Streak" />
 
-<!-- Custom Achievement Badges -->
-<div align="center" style="margin: 20px 0;">
-  <h3>🏆 Achievements & Skills</h3>
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Full_Stack-Expert-2563EB?style=for-the-badge&logo=stackshare&logoColor=white" alt="Full Stack Expert" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Blockchain-Web3-7C3AED?style=for-the-badge&logo=ethereum&logoColor=white" alt="Blockchain Developer" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/AI_ML-Advanced-16A34A?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI/ML Expert" />
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://img.shields.io/badge/DevOps-Professional-EA580C?style=for-the-badge&logo=docker&logoColor=white" alt="DevOps Professional" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Cloud_AWS-Expert-0891B2?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS Expert" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Security-Advanced-BE123C?style=for-the-badge&logo=shield&logoColor=white" alt="Security Expert" />
-      </td>
-    </tr>
-  </table>
-</div>
+### 📈 Contribution Graph
 
-<!-- Coding Activity Metrics -->
-<div align="center" style="margin: 20px 0;">
-  <h3>📊 Coding Activity</h3>
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Commits-500%2B-65A30D?style=for-the-badge&logo=git&logoColor=white" alt="Commits" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Projects-25%2B-C2410C?style=for-the-badge&logo=github&logoColor=white" alt="Projects" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Contributions-100%2B-7C2D12?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Contributions" />
-      </td>
-    </tr>
-  </table>
-</div>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=catppuccin-mocha&hide_border=false&hide_title=false" alt="GitHub Contribution Graph" />
+
+### 🏆 Achievements & Expertise
+
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/badge/Full_Stack-Expert-2563EB?style=for-the-badge&logo=stackshare&logoColor=white" alt="Full Stack Expert" />
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/badge/Blockchain-Web3-7C3AED?style=for-the-badge&logo=ethereum&logoColor=white" alt="Blockchain Developer" />
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/badge/Smart_Contracts-Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" alt="Smart Contracts" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/DevOps-Professional-EA580C?style=for-the-badge&logo=docker&logoColor=white" alt="DevOps Professional" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Cloud-AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS Expert" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Security-Advanced-BE123C?style=for-the-badge&logo=shield&logoColor=white" alt="Security" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/API_Design-RESTful-0891B2?style=for-the-badge&logo=fastapi&logoColor=white" alt="API Design" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Performance-Optimization-16A34A?style=for-the-badge&logo=lightning&logoColor=white" alt="Performance" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Code_Quality-Clean_Code-65A30D?style=for-the-badge&logo=codeclimate&logoColor=white" alt="Code Quality" />
+    </td>
+  </tr>
+</table>
+
+### 📌 Activity Snapshot
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <h3>💬 Commits</h3>
+      <img src="https://img.shields.io/badge/500%2B-65A30D?style=flat-square&logo=git&logoColor=white" alt="Commits" />
+    </td>
+    <td align="center">
+      <h3>📁 Projects</h3>
+      <img src="https://img.shields.io/badge/25%2B-C2410C?style=flat-square&logo=github&logoColor=white" alt="Projects" />
+    </td>
+    <td align="center">
+      <h3>⭐ Contributions</h3>
+      <img src="https://img.shields.io/badge/100%2B-7C2D12?style=flat-square&logo=github-sponsors&logoColor=white" alt="Contributions" />
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -167,5 +177,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-11-24 13:28:24  
+⭐️ **Last Updated**: 2025-11-24 13:32:31  
 *This README updates daily with new content!* ✨
