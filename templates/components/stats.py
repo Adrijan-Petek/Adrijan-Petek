@@ -76,25 +76,17 @@ def generate(config, daily_content):
 
 ### 📊 GitHub Overview
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="200" align="center" src="https://github-readme-stats.vercel.app/api?username={github_user}&show_icons=true&theme={theme}&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-</a>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username={github_user}&show_icons=true&theme={theme}&hide_border=true)
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username={github_user}&layout=compact&theme={theme}&langs_count=8" alt="Top Languages" />
-</a>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username={github_user}&layout=compact&theme={theme}&hide_border=true)
 
 ### 🔥 Contribution Streak
 
-<a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com/?user={github_user}&theme={theme}" alt="GitHub Streak Stats" />
-</a>
+![GitHub Streak](https://streak-stats.demolab.com/?user={github_user}&theme={theme})
 
 ### 📈 Contribution Activity
 
-<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username={github_user}&theme={contribution_color}&hide_border=true&area=true" alt="GitHub Contribution Activity" />
-</a>
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username={github_user}&theme={theme})
 
 ### 🏆 Achievements & Expertise
 

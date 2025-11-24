@@ -95,25 +95,17 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ### 📊 GitHub Overview
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="200" align="center" src="https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=onedark&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-</a>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=onedark&hide_border=true)
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=onedark&langs_count=8" alt="Top Languages" />
-</a>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=onedark&hide_border=true)
 
 ### 🔥 Contribution Streak
 
-<a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com/?user=Adrijan-Petek&theme=onedark" alt="GitHub Streak Stats" />
-</a>
+![GitHub Streak](https://streak-stats.demolab.com/?user=Adrijan-Petek&theme=onedark)
 
 ### 📈 Contribution Activity
 
-<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=catppuccin-mocha&hide_border=true&area=true" alt="GitHub Contribution Activity" />
-</a>
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=onedark)
 
 ### 🏆 Achievements & Expertise
 
@@ -178,5 +170,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-11-24 14:00:26  
+⭐️ **Last Updated**: 2025-11-24 14:03:12  
 *This README updates daily with new content!* ✨
