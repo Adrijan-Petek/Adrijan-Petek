@@ -76,9 +76,9 @@ def generate(config, daily_content):
 
 ### 📊 GitHub Overview
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username={github_user}&show_icons=true&theme={theme}&hide_border=true)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username={github_user}&show_icons=true&theme={theme})](https://github.com/anuraghazra/github-readme-stats)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username={github_user}&layout=compact&theme={theme}&hide_border=true)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username={github_user}&layout=compact&theme={theme})](https://github.com/anuraghazra/github-readme-stats)
 
 ### 🔥 Contribution Streak
 
@@ -86,7 +86,7 @@ def generate(config, daily_content):
 
 ### 📈 Contribution Activity
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username={github_user}&theme={theme})
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username={github_user}&theme={theme})](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ### 🏆 Achievements & Expertise
 
