@@ -7,7 +7,7 @@ def get_learning_topics():
 def generate(config, daily_content):
     learning_paths = config['learning_paths']
 
-    content = "## 🐍 Learning & Tutorials\n\n"
+    content = "## 📚 Learning & Tutorials\n\n"
     content += '<div align="center">\n\n'
     content += '| 🐍 **Python** | 📘 **TypeScript** | 🌐 **Web Dev** | 🔗 **Blockchain** |\n'
     content += '|---------------|----------------|-------------|----------------|\n'
@@ -47,7 +47,9 @@ def generate(config, daily_content):
         content += f"| {python_item} | {typescript_item} | {web_dev_item} | {blockchain_item} |\n"
 
     content += "\n</div>\n\n"
-    content += f"**Today's Focus**: {daily_content['learning_focus']} 🎯\n\n"
+    content += '<p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Completed | ➡️ = In Progress | ⏳ = Planned</p>\n\n'
+    content += "### 🎯 Current Focus\n"
+    content += f"> **{daily_content['learning_focus']}** & **Web3 Development**\n\n"
     content += "---\n\n"
 
     return content

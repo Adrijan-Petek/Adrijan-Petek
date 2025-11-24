@@ -20,11 +20,14 @@ def get_projects():
 def generate(config, daily_content):
     projects_list = get_projects()
     
-    content = "## 🚀 Projects\n\n"
+    content = "## 🚀 Featured Projects\n\n"
+    content += '<div align="center">\n\n'
+    content += '| Project | Description | Link |\n'
+    content += '|---------|-------------|------|\n'
     
     for project in projects_list:
-        spotlight = " 🔥" if project["name"] == daily_content["spotlight_project"] else ""
-        content += f"- **[{project['name']}]({project['url']})**{spotlight} – {project['description']}\n"
+        content += f"| {project['name']} | {project['description']} | [Explore]({project['url']}) |\n"
     
-    content += "\n---\n\n"
+    content += "\n</div>\n\n"
+    content += "---\n\n"
     return content

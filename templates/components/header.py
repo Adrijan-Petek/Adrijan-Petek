@@ -230,10 +230,10 @@ def generate(config, daily_content):
 
 {daily_intro}
 
-Currently working on [Mobb Chain]({config['user']['website']}) and experimenting with Farcaster mini apps 🌐.  
-I document my learning journey in Python, Solidity, Web Development, and Blockchain projects in this repository and others 📂 [python-beginners]({config['user']['learning_repo']}).  
+Experimenting with **Farcaster mini apps** 🌐 and exploring innovative blockchain solutions.  
+I document my learning journey in **Python**, **Solidity**, **Web Development**, and **Blockchain projects** across this repository and others 📂 [python-beginners]({config['user']['learning_repo']}).  
 
-**Connect with me:** [X/Twitter]({config['social']['x']}) • [Zora Badge]({config['social']['zora']}) • [Farcaster]({config['social']['farcaster']})
+**🌍 Connect with me:** [X/Twitter]({config['social']['x']}) • [Zora Badge]({config['social']['zora']}) • [Farcaster]({config['social']['farcaster']}) • [Website]({config['user']['website']})
 
 </div>
 

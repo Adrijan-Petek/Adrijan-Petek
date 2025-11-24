@@ -9,6 +9,150 @@ def generate(config, daily_content):
     day_of_year = today.timetuple().tm_yday
     random.seed(day_of_year)
     contribution_color = get_daily_contribution_color()
+    
+    # Build enhanced tech stack with colors
+    tech_badges = []
+    tech_colors = {
+        "Python": "3776AB",
+        "TypeScript": "3178C6",
+        "JavaScript": "F7DF1E",
+        "Java": "007396",
+        "HTML5": "E34C26",
+        "CSS3": "1572B6",
+        "VS Code": "007ACC",
+        "Solidity": "363636",
+        "Ethereum": "627EEA",
+        "GitHub": "181717"
+    }
+    
+    for tech in config.get('tech_stack', []):
+        color = tech_colors.get(tech, "000000")
+        logo = tech.lower().replace(" ", "-")
+        logo_color = "white" if tech not in ["JavaScript", "HTML5"] else "black"
+        tech_badges.append(
+            f"![{tech}](https://img.shields.io/badge/{tech.replace(' ', '%20')}-{color}?style=for-the-badge&logo={logo}&logoColor={logo_color})"
+        )
+    
+    tech_stack = " ".join(tech_badges)
+    
+    # Social badges with colors
+    social_badges = []
+    social = config.get('social', {})
+    if social.get("x"):
+        social_badges.append(f"[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)]({social['x']})")
+    if social.get("zora"):
+        social_badges.append(f"[![Zora](https://img.shields.io/badge/Zora-FFB400?style=for-the-badge&logo=zora&logoColor=black)]({social['zora']})")
+    if social.get("farcaster"):
+        social_badges.append(f"[![Farcaster](https://img.shields.io/badge/Farcaster-8A63D2?style=for-the-badge&logo=farcaster&logoColor=white)]({social['farcaster']})")
+    if config.get('user', {}).get("website"):
+        social_badges.append(f"[![Website](https://img.shields.io/badge/Website-4158D0?style=for-the-badge&logo=html5&logoColor=white)]({config['user']['website']})")
+    
+    social_links = " ".join(social_badges)
+    
+    return f"""
+## 🛠️ Tech Stack
+
+<div align="center">
+
+### Languages & Frameworks
+{tech_stack}
+
+</div>
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+{social_links}
+
+</div>
+
+## 📈 GitHub Stats
+<div align="center">
+
+<!-- GitHub Stats and Top Languages in same row -->
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username={config['user']['github']}&show_icons=true&theme={daily_content['color_theme']}&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub Stats" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={config['user']['github']}&layout=compact&theme={daily_content['color_theme']}&hide_border=true&bg_color=00000000&hide=html,css" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
+
+<!-- Contribution Graph -->
+<div align="center" style="margin: 20px 0;">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username={config['user']['github']}&theme={contribution_color}&hide_border=true&bg_color=00000000&height=300" alt="GitHub Contribution Graph" />
+</div>
+
+<!-- GitHub Streak -->
+<div align="center" style="margin: 20px 0;">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user={config['user']['github']}&theme={daily_content['color_theme']}&hide_border=true&background=00000000" alt="GitHub Streak" />
+</div>
+
+<!-- Custom Achievement Badges -->
+<div align="center" style="margin: 20px 0;">
+  <h3>🏆 Achievements & Skills</h3>
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Full_Stack-Expert-2563EB?style=for-the-badge&logo=stackshare&logoColor=white" alt="Full Stack Expert" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Blockchain-Web3-7C3AED?style=for-the-badge&logo=ethereum&logoColor=white" alt="Blockchain Developer" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/AI_ML-Advanced-16A34A?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI/ML Expert" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/DevOps-Professional-EA580C?style=for-the-badge&logo=docker&logoColor=white" alt="DevOps Professional" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Cloud_AWS-Expert-0891B2?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS Expert" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Security-Advanced-BE123C?style=for-the-badge&logo=shield&logoColor=white" alt="Security Expert" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- Coding Activity Metrics -->
+<div align="center" style="margin: 20px 0;">
+  <h3>📊 Coding Activity</h3>
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Commits-500%2B-65A30D?style=for-the-badge&logo=git&logoColor=white" alt="Commits" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Projects-25%2B-C2410C?style=for-the-badge&logo=github&logoColor=white" alt="Projects" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Contributions-100%2B-7C2D12?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Contributions" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+</div>
+
+---
+"""
+    # Import contribution color function
+    from .header import get_daily_contribution_color
+    import random
+    from datetime import datetime
+    
+    # Get contribution color
+    today = datetime.now()
+    day_of_year = today.timetuple().tm_yday
+    random.seed(day_of_year)
+    contribution_color = get_daily_contribution_color()
     tech_badges = []
     for tech in config.get('tech_stack', []):
         if tech == "VS Code":
