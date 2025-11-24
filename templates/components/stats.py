@@ -84,9 +84,13 @@ def generate(config, daily_content):
 
 ### 📊 GitHub Overview
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username={github_user}&show_icons=true&theme={theme})](https://github.com/anuraghazra/github-readme-stats)
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height="200" align="center" src="https://github-readme-stats.vercel.app/api?username={github_user}&show_icons=true&theme={theme}" alt="GitHub Stats" />
+</a>
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username={github_user}&theme={theme}&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username={github_user}&layout=compact&theme={theme}&langs_count=8&card_width=320" alt="Top Languages" />
+</a>
 
 ### 🔥 Contribution Streak
 
