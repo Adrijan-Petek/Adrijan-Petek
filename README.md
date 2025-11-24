@@ -95,9 +95,14 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ### 📊 GitHub Overview
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
+<!-- Dark theme stats (shown on GitHub dark mode) -->
+[![GitHub Stats-Dark](https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats)
+<!-- Light theme stats (shown on GitHub light mode) -->
+[![GitHub Stats-Light](https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
+<!-- Top languages theme-aware -->
+[![Top Languages-Dark](https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Languages-Light](https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats)
 
 ### 🔥 Contribution Streak
 
@@ -105,7 +110,9 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ### 📈 Contribution Activity
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=onedark)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<!-- Theme-aware contribution graph (dark/light) -->
+[![GitHub Activity Graph-Dark](https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=dark#gh-dark-mode-only)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![GitHub Activity Graph-Light](https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=default#gh-light-mode-only)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ### 🏆 Achievements & Expertise
 
@@ -170,5 +177,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-11-24 14:06:41  
+⭐️ **Last Updated**: 2025-11-24 14:09:59  
 *This README updates daily with new content!* ✨

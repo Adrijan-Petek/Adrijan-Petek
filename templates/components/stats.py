@@ -51,7 +51,35 @@ def generate(config, daily_content):
     
     github_user = config['user']['github']
     theme = daily_content['color_theme']
+
+    # Stats & Streak configuration (allow opt-in overrides from config.json)
+    stats_conf = config.get('stats', {})
+    streak_conf = stats_conf.get('streak', {})
+
+    # Build streak extra params from config (URI-encode values)
+    from urllib.parse import quote_plus
+    extra_streak_params = ""
+    if isinstance(streak_conf, dict):
+      for key, val in streak_conf.items():
+        # Skip empty/None values
+        if val is None or val == "":
+          continue
+        # for boolean True/False, use lowercase string
+        if isinstance(val, bool):
+          val_str = str(val).lower()
+        else:
+          val_str = str(val)
+        extra_streak_params += f"&{quote_plus(key)}={quote_plus(val_str)}"
     
+    # Compose theme-aware URLs for dark & light (GitHub theme-aware tags)
+    stats_repo_link = "https://github.com/anuraghazra/github-readme-stats"
+    activity_repo_link = "https://github.com/ashutosh00710/github-readme-activity-graph"
+    streak_base_url = f"https://streak-stats.demolab.com/?user={github_user}&theme={theme}" + extra_streak_params
+    dark_stats_url = f"https://github-readme-stats.vercel.app/api?username={github_user}&show_icons=true&theme=dark"
+    light_stats_url = f"https://github-readme-stats.vercel.app/api?username={github_user}&show_icons=true&theme=default"
+    dark_top_langs = f"https://github-readme-stats.vercel.app/api/top-langs/?username={github_user}&layout=compact&theme=dark"
+    light_top_langs = f"https://github-readme-stats.vercel.app/api/top-langs/?username={github_user}&layout=compact&theme=default"
+
     return f"""
 ## 🛠️ Tech Stack
 
@@ -76,17 +104,24 @@ def generate(config, daily_content):
 
 ### 📊 GitHub Overview
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username={github_user}&show_icons=true&theme={theme})](https://github.com/anuraghazra/github-readme-stats)
+<!-- Dark theme stats (shown on GitHub dark mode) -->
+[![GitHub Stats-Dark]({dark_stats_url}#gh-dark-mode-only)]({stats_repo_link})
+<!-- Light theme stats (shown on GitHub light mode) -->
+[![GitHub Stats-Light]({light_stats_url}#gh-light-mode-only)]({stats_repo_link})
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username={github_user}&layout=compact&theme={theme})](https://github.com/anuraghazra/github-readme-stats)
+<!-- Top languages theme-aware -->
+[![Top Languages-Dark]({dark_top_langs}#gh-dark-mode-only)]({stats_repo_link})
+[![Top Languages-Light]({light_top_langs}#gh-light-mode-only)]({stats_repo_link})
 
 ### 🔥 Contribution Streak
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user={github_user}&theme={theme})](https://git.io/streak-stats)
+[![GitHub Streak]({streak_base_url})](https://git.io/streak-stats)
 
 ### 📈 Contribution Activity
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username={github_user}&theme={theme})](https://github.com/ashutosh00710/github-readme-activity-graph)
+<!-- Theme-aware contribution graph (dark/light) -->
+[![GitHub Activity Graph-Dark](https://github-readme-activity-graph.vercel.app/graph?username={github_user}&theme=dark#gh-dark-mode-only)]({activity_repo_link})
+[![GitHub Activity Graph-Light](https://github-readme-activity-graph.vercel.app/graph?username={github_user}&theme=default#gh-light-mode-only)]({activity_repo_link})
 
 ### 🏆 Achievements & Expertise
 
