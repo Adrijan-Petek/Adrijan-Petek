@@ -95,13 +95,11 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ### 📊 GitHub Overview
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="200" align="center" src="https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=onedark" alt="GitHub Stats" />
-</a>
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats)
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=onedark&langs_count=8&card_width=320" alt="Top Languages" />
-</a>
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=dark&langs_count=8#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=default&langs_count=8#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats)
 
 ### 🔥 Contribution Streak
 
@@ -174,5 +172,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-11-24 14:29:32  
+⭐️ **Last Updated**: 2025-11-24 14:33:05  
 *This README updates daily with new content!* ✨
