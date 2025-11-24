@@ -52,14 +52,6 @@ def generate(config, daily_content):
     github_user = config['user']['github']
     theme = daily_content['color_theme']
     
-    # Build configurable streak parameters from config
-    streak_params = f"?user={github_user}&theme={theme}"
-    streak_config = config.get('stats', {}).get('streak', {})
-    if streak_config:
-        for key, val in streak_config.items():
-            if val is not None and val != "":
-                streak_params += f"&{key}={val}"
-    
     return f"""
 ## 🛠️ Tech Stack
 
@@ -84,13 +76,13 @@ def generate(config, daily_content):
 
 ### 📊 GitHub Overview
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username={github_user}&show_icons=true&theme={theme})](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username={github_user}&show_icons=true&theme={theme}&hide_border=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username={github_user}&layout=compact&theme={theme})](https://github.com/anuraghazra/github-readme-stats)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username={github_user}&layout=compact&theme={theme}&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
 
 ### 🔥 Contribution Streak
 
-[![GitHub Streak](https://streak-stats.demolab.com/{streak_params})](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user={github_user}&theme={theme})](https://git.io/streak-stats)
 
 ### 📈 Contribution Activity
 
