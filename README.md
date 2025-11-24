@@ -5,7 +5,7 @@
 
 
 <div align="center">
-  <img src="img\github-header-banner (4).png" alt="Header Banner" style="
+  <img src="img/github-header-banner (16).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
@@ -172,5 +172,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-11-24 14:33:05  
+⭐️ **Last Updated**: 2025-11-24 22:33:31  
 *This README updates daily with new content!* ✨
