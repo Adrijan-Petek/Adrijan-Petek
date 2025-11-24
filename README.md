@@ -95,9 +95,9 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ### 📊 GitHub Overview
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=onedark&hide_border=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Adrijan-Petek&show_icons=true&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&layout=compact&theme=onedark&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Adrijan-Petek&theme=onedark&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 ### 🔥 Contribution Streak
 
@@ -170,5 +170,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-11-24 14:25:11  
+⭐️ **Last Updated**: 2025-11-24 14:27:13  
 *This README updates daily with new content!* ✨
