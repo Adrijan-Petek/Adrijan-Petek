@@ -84,11 +84,8 @@ def generate(config, daily_content):
 
 ### 📊 GitHub Overview
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username={github_user}&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats)
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username={github_user}&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats)
+![Adrijan GitHub stats](https://github-readme-stats.vercel.app/api?username=adrijan-petek&show_icons=true&theme=radical)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username={github_user}&layout=compact&theme=dark&langs_count=8#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username={github_user}&layout=compact&theme=default&langs_count=8#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats)
 
 ### 🔥 Contribution Streak
 
