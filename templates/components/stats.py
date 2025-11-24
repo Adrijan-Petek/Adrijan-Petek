@@ -74,7 +74,7 @@ def generate(config, daily_content):
 
 <div align="center">
 
-### 📊 GitHub Stats & Activity
+### 📊 GitHub Stats
 
 <table>
   <tr>

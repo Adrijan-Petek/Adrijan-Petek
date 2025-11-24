@@ -93,7 +93,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 <div align="center">
 
-### 📊 GitHub Stats & Activity
+### 📊 GitHub Stats
 
 <table>
   <tr>
@@ -177,5 +177,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-11-24 13:36:01  
+⭐️ **Last Updated**: 2025-11-24 13:39:59  
 *This README updates daily with new content!* ✨
