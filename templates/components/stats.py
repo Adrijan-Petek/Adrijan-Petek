@@ -84,7 +84,7 @@ def generate(config, daily_content):
 
 ### 📊 GitHub Overview
 
-![Adrijan GitHub stats](https://pixel-profile.vercel.app/api/github-stats?username={github_user}&theme=crt)
+![GitHub Stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username=={github_user})
 
 
 ### 🔥 Contribution Streak
