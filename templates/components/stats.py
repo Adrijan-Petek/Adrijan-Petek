@@ -84,7 +84,7 @@ def generate(config, daily_content):
 
 ### 📊 GitHub Overview
 
-![Adrijan GitHub stats](https://github-readme-stats.vercel.app/api?username={github_user}&show_icons=true&theme=radical)
+![Adrijan GitHub stats](https://pixel-profile.vercel.app/api/github-stats?username={github_user}&theme=crt)
 
 
 ### 🔥 Contribution Streak
