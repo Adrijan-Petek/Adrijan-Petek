@@ -95,7 +95,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ### 📊 GitHub Overview
 
-![Adrijan's GitHub stats](https://pixel-profile.vercel.app/api/github-stats?username=<Adrijan-Petek>&theme=crt)
+![GitHub Stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username==Adrijan-Petek)
 
 
 ### 🔥 Contribution Streak
@@ -169,5 +169,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-11-25 21:04:32  
+⭐️ **Last Updated**: 2025-11-25 21:12:23  
 *This README updates daily with new content!* ✨
