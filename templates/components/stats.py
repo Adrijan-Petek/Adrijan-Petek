@@ -84,7 +84,7 @@ def generate(config, daily_content):
 
 ### 📊 GitHub Overview
 
-![GitHub Stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username=={github_user})
+![GitHub Stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username={github_user})
 
 
 ### 🔥 Contribution Streak
