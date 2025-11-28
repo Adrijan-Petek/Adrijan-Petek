@@ -23,9 +23,9 @@
 
 ![Blockchain](https://img.shields.io/badge/Blockchain-Web3-blue?style=for-the-badge) ![Smart Contracts](https://img.shields.io/badge/Smart%20Contracts-Solidity-orange?style=for-the-badge)
 
-# 👋 Hi, I'm Adrijan Petek
+# 👋 Hi, I'm Adrijn Petek
 
-🎯 **Focused on Quality Code & User Experience**
+🎯 **Focused on Quality Code& User Experience**
 
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovtive blockhain solutions.  
 I document my learning journey in **Python**, **Solidity**, **Web evelpment**, and **Blockchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
