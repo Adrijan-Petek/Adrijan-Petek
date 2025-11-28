@@ -28,7 +28,7 @@
 🎯 **Focused on Quality Code & User Experience**
 
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovtive blockhain solutions.  
-I document my learning journey in **Python**, **Solidity**, **Web evelopment**, and **Blockchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
+I document my learning journey in **Python**, **Solidity**, **Web evelpment**, and **Blockchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
 
 **🌍 Connect with me:** [X/Twitter](https://x.com/adrijan_petek) • [Zora Badge](https://zora.co/@adrijan) • [Farcaster](https://farcaster.xyz/adrijan) • [Website](https://www.mobbchain.xyz)
 
