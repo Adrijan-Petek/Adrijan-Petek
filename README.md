@@ -98,7 +98,7 @@ I document my learning journey in **Python**, **Solidity**, **Web evelpment**, a
 ![GitHub Stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username=Adrijan-Petek)
 
 
-### 🔥 Contribution Streak
+### 🔥 Contribution Strea
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=Adrijan-Petek&theme=radical)](https://git.io/streak-stats)
 
