@@ -25,7 +25,7 @@
 
 # 👋 Hi, I'm Adrijn Petek
 
-🎯 **Focused on Quality Code& User Experience**
+🎯 **Focused on Quality Code& Usr Experince**
 
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovtive blockhain solutions.  
 I document my learning journey in **Python**, **Solidity**, **Web evelpment**, and **Bckchain projects* across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
