@@ -106,7 +106,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 [![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=radical)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-### 🏆 Achievements & Expertise
+### 🏆 Achievements 
 
 <table align="center">
   <tr>
