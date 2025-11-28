@@ -28,7 +28,7 @@
 🎯 **Focused on Quality Code& User Experience**
 
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovtive blockhain solutions.  
-I document my learning journey in **Python**, **Solidity**, **Web evelpment**, and **Bckchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
+I document my learning journey in **Python**, **Solidity**, **Web evelpment**, and **Bckchain projects* across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
 
 **🌍 Connect with me:** [X/Twitter](https://x.com/adrijan_petek) • [Zora Badge](https://zora.co/@adrijan) • [Farcaster](https://farcaster.xyz/adrijan) • [Website](https://www.mobbchain.xyz)
 
@@ -50,7 +50,7 @@ I document my learning journey in **Python**, **Solidity**, **Web evelpment**, a
 
 </div>
 
-<p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Completed | ➡️ = In Progress | ⏳ = Planned</p>
+<p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Competed | ➡️ = In Progress | ⏳ = Planned</p>
 
 ### 🎯 Current Focus
 > **TypeScript Advanced Patterns** & **Web3 Development**
