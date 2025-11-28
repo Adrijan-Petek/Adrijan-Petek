@@ -5,7 +5,7 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner (10).png" alt="Header Bannr" style="
+  <img src="img/github-header-banner (10).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
@@ -23,12 +23,12 @@
 
 ![Blockchain](https://img.shields.io/badge/Blockchain-Web3-blue?style=for-the-badge) ![Smart Contracts](https://img.shields.io/badge/Smart%20Contracts-Solidity-orange?style=for-the-badge)
 
-# 👋 Hi, I'm Adrijn Petek
+# 👋 Hi, I'm Adrijan Petek
 
-🎯 **Focused on Quality Code& Usr Experince**
+🎯 **Focused on Quality Code & User Experience**
 
-Experimenting with **Farcater mini apps** 🌐 and exploring innovtive blockhain solutions.  
-I document my learning journey in **Python**, **Solidity**, **Web evelpment**, and **Bckchain projects* across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
+Experimenting with **Farcaster mini apps** 🌐 and exploring innovative blockchain solutions.  
+I document my learning journey in **Python**, **Solidity**, **Web Development**, and **Blockchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
 
 **🌍 Connect with me:** [X/Twitter](https://x.com/adrijan_petek) • [Zora Badge](https://zora.co/@adrijan) • [Farcaster](https://farcaster.xyz/adrijan) • [Website](https://www.mobbchain.xyz)
 
@@ -50,7 +50,7 @@ I document my learning journey in **Python**, **Solidity**, **Web evelpment**, a
 
 </div>
 
-<p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Competed | ➡️ = In Progress | ⏳ = Planned</p>
+<p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Completed | ➡️ = In Progress | ⏳ = Planned</p>
 
 ### 🎯 Current Focus
 > **TypeScript Advanced Patterns** & **Web3 Development**
@@ -98,7 +98,7 @@ I document my learning journey in **Python**, **Solidity**, **Web evelpment**, a
 ![GitHub Stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username=Adrijan-Petek)
 
 
-### 🔥 Contribution Strea
+### 🔥 Contribution Streak
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=Adrijan-Petek&theme=radical)](https://git.io/streak-stats)
 
@@ -106,7 +106,7 @@ I document my learning journey in **Python**, **Solidity**, **Web evelpment**, a
 
 [![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=radical)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-### 🏆 Achievements 
+### 🏆 Achievements & Expertise
 
 <table align="center">
   <tr>
@@ -165,9 +165,10 @@ I document my learning journey in **Python**, **Solidity**, **Web evelpment**, a
 
 </div>
 
----
 
 ---
 
-⭐️ **Last Updated**: 2025-11-28 00:34:04  
+---
+
+⭐️ **Last Updated**: 2025-11-28 22:47:36  
 *This README updates daily with new content!* ✨
