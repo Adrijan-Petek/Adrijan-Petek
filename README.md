@@ -5,7 +5,7 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner (9).png" alt="Headr" style="
+  <img src="img/github-header-banner (9).png" alt="Head" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
