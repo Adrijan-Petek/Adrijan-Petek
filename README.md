@@ -1,19 +1,19 @@
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=None&center=true&vCenter=true&width=940&lines=Code+Quality+Advocate;UI/UX+Designer;Tech+Blog+Writer;Community+Builder" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=None&center=true&vCenter=true&width=940&lines=Full-Stack+Developer;Blockchain+Builder;Crypto+Enthusiast;Continuous+Learner" alt="Typing SVG" />
 </p>
 
 
 <div align="center">
-  <img src="img/github-header-banner (10).png" alt="Header Banner" style="
+  <img src="img/github-header-banner (9).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(79, 70, 229, 0.3);
-    border: 3px solid #4F46E5;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(139, 92, 246, 0.3);
+    border: 3px solid #8B5CF6;
     
-    filter: brightness(1.05);
+    filter: hue-rotate(10deg);
     margin-bottom: 1.5rem;
   " />
 </div>
@@ -21,11 +21,11 @@
 
 <div align="center">
 
-![Blockchain](https://img.shields.io/badge/Blockchain-Web3-blue?style=for-the-badge) ![Smart Contracts](https://img.shields.io/badge/Smart%20Contracts-Solidity-orange?style=for-the-badge)
+![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red?style=for-the-badge) ![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)
 
 # 👋 Hi, I'm Adrijan Petek
 
-🎯 **Focused on Quality Code & User Experience**
+⚡ **Full-Stack Developer & Web3 Explorer**
 
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovative blockchain solutions.  
 I document my learning journey in **Python**, **Solidity**, **Web Development**, and **Blockchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
@@ -53,7 +53,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 <p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Completed | ➡️ = In Progress | ⏳ = Planned</p>
 
 ### 🎯 Current Focus
-> **TypeScript Advanced Patterns** & **Web3 Development**
+> **Smart Contract Security** & **Web3 Development**
 
 ---
 
@@ -100,11 +100,11 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ### 🔥 Contribution Streak
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Adrijan-Petek&theme=radical)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Adrijan-Petek&theme=onedark)](https://git.io/streak-stats)
 
 ### 📈 Contribution Activity
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=radical)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=onedark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ### 🏆 Achievements & Expertise
 
@@ -170,5 +170,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-11-28 22:47:36  
+⭐️ **Last Updated**: 2025-11-29 00:34:05  
 *This README updates daily with new content!* ✨
