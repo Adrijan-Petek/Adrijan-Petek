@@ -5,15 +5,15 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner (7).png" alt="Header Banner" style="
+  <img src="img/github-header-banner (21).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(79, 70, 229, 0.3);
-    border: 3px solid #4F46E5;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
     
-    filter: brightness(1.05);
+    
+    filter: none;
     margin-bottom: 1.5rem;
   " />
 </div>
@@ -21,11 +21,11 @@
 
 <div align="center">
 
-![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/Adrijan-Petek?color=yellow&style=for-the-badge) ![Forks](https://img.shields.io/github/forks/Adrijan-Petek/python-beginners?color=green&style=for-the-badge)
 
 # 👋 Hi, I'm Adrijan Petek
 
-🚀 **Full-Stack Developer | Blockchain Builder | Crypto Enthusiast**
+⭐️ **Passionate Coder & Continuous Learner**
 
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovative blockchain solutions.  
 I document my learning journey in **Python**, **Solidity**, **Web Development**, and **Blockchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
@@ -53,7 +53,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 <p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Completed | ➡️ = In Progress | ⏳ = Planned</p>
 
 ### 🎯 Current Focus
-> **Web3 Integration** & **Web3 Development**
+> **TypeScript Advanced Patterns** & **Web3 Development**
 
 ---
 
@@ -100,11 +100,11 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ### 🔥 Contribution Streak
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Adrijan-Petek&theme=radical)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Adrijan-Petek&theme=tokyonight)](https://git.io/streak-stats)
 
 ### 📈 Contribution Activity
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=radical)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=tokyonight)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ### 🏆 Achievements & Expertise
 
@@ -169,5 +169,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-12-01 00:43:49  
+⭐️ **Last Updated**: 2025-12-02 00:36:08  
 *This README updates daily with new content!* ✨
