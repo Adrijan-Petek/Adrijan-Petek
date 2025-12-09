@@ -1,7 +1,7 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner (11).png" alt="Header Banner" style="
+  <img src="img\github-header-banner (5).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
@@ -67,6 +67,9 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 | Farcaster Mini Apps | Exploring decentralized applications | [Explore](https://farcaster.xyz/adrijan) |
 | Joybit | Interactive gaming platform | [Explore](https://joybit.vercel.app/) |
 | Mememint | NFT minting platform | [Explore](https://mememint-one.vercel.app/) |
+| Super Based Cube | 3D puzzle game on Farcade | [Explore](https://remix.gg/g/18a5445b-b15f-4bf5-a6d6-219c376633a0) |
+| BYTE RACERS | Racing game on Farcade | [Explore](https://remix.gg/g/f3da7626-351a-49cc-9fd5-e839018be4bb) |
+| Base Defenders | Tower defense game on Farcade | [Explore](https://remix.gg/g/cfa6ed04-a2ec-4a82-866c-268b93774287) |
 
 </div>
 
@@ -170,5 +173,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-12-09 10:32:14  
+⭐️ **Last Updated**: 2025-12-09 11:35:03  
 *This README updates daily with new content!* ✨
