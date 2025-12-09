@@ -1,5 +1,5 @@
 {
-    "_comment": "Dynamic GitHub Profile Generator Configuration - Updated 2025-12-09 11:00:00 UTC",
+    "_comment": "Dynamic GitHub Profile Generator Configuration - Updated 2025-12-09 12:00:00 UTC",
     "_repository": "https://github.com/Adrijan-Petek/Adrijan-Petek.git",
     "user": {
         "name": "Adrijan Petek",
@@ -12,8 +12,15 @@
         "x": "https://x.com/adrijan_petek",
         "zora": "https://zora.co/@adrijan"
     },
+    "theme": {
+        "primary_color": "#000000",
+        "secondary_color": "#1a1a1a",
+        "accent_color": "#333333",
+        "text_color": "#ffffff",
+        "background_color": "#0d1117"
+    },
     "tech_stack": [
-        "Python", "TypeScript", "Java", "HTML5", "CSS3", 
+        "Python", "TypeScript", "Java", "HTML5", "CSS3",
         "VS Code", "Solidity", "Ethereum", "GitHub"
     ],
     "learning_paths": {

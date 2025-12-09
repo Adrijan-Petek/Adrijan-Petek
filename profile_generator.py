@@ -46,9 +46,16 @@ def generate_daily_content():
     random.seed(day_of_year)
 
     return {
-        "color_theme": random.choice(["tokyonight", "radical", "dark", "merko", "onedark"]),
+        "color_theme": "tokyonight",  # Fixed to black theme
         "spotlight_project": random.choice(projects.get_projects())["name"],
-        "learning_focus": random.choice(learning.get_learning_topics())
+        "learning_focus": random.choice(learning.get_learning_topics()),
+        "theme": {
+            "primary": "#000000",
+            "secondary": "#1a1a1a",
+            "accent": "#333333",
+            "text": "#ffffff",
+            "background": "#0d1117"
+        }
     }
 
 

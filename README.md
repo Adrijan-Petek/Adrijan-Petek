@@ -1,23 +1,23 @@
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=None&center=true&vCenter=true&width=940&lines=Code+Quality+Advocate;UI/UX+Designer;Tech+Blog+Writer;Community+Builder" alt="Typing SVG" />
-</p>
-
 
 <div align="center">
-  <img src="img/github-header-banner (11).png" alt="Header Banner" style="
+  <img src="img\github-header-banner (5).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
     border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(79, 70, 229, 0.3);
-    border: 3px solid #4F46E5;
+    box-shadow: 0 6px 12px rgba(26, 26, 26, 0.3);
+    border: 3px solid #1a1a1a;
     
     filter: brightness(1.05);
     margin-bottom: 1.5rem;
   " />
 </div>
 
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=000000&center=true&vCenter=true&width=940&lines=Code+Quality+Advocate;UI/UX+Designer;Tech+Blog+Writer;Community+Builder" alt="Typing SVG" />
+</p>
 
 <div align="center">
 
@@ -53,7 +53,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 <p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Completed | ➡️ = In Progress | ⏳ = Planned</p>
 
 ### 🎯 Current Focus
-> **React Fundamentals** & **Web3 Development**
+> **Web3 Integration** & **Web3 Development**
 
 ---
 
@@ -100,11 +100,11 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ### 🔥 Contribution Streak
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Adrijan-Petek&theme=radical)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Adrijan-Petek&theme=tokyonight)](https://git.io/streak-stats)
 
 ### 📈 Contribution Activity
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=radical)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=tokyonight)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ### 🏆 Achievements & Expertise
 
@@ -169,5 +169,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-12-09 10:16:56  
+⭐️ **Last Updated**: 2025-12-09 11:22:34  
 *This README updates daily with new content!* ✨

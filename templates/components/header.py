@@ -18,12 +18,12 @@ def get_daily_banner_style():
     """Return different banner styles each day"""
     styles = [
         {"border": "15px", "shadow": "0 8px 16px rgba(0,0,0,0.3)", "filter": "none"},
-        {"border": "12px", "shadow": "0 6px 12px rgba(79, 70, 229, 0.3)", "border_color": "#4F46E5", "filter": "brightness(1.05)"},
+        {"border": "12px", "shadow": "0 6px 12px rgba(26, 26, 26, 0.3)", "border_color": "#1a1a1a", "filter": "brightness(1.05)"},
         {"border": "10px", "shadow": "0 8px 20px rgba(0,0,0,0.4)", "transform": "rotate(-1deg)", "filter": "contrast(1.1)"},
-        {"border": "8px", "shadow": "0 4px 8px rgba(0,0,0,0.2)", "border_style": "dashed", "border_color": "#6366F1", "filter": "saturate(1.2)"},
-        {"border": "20px", "shadow": "0 10px 25px rgba(139, 92, 246, 0.3)", "border_color": "#8B5CF6", "filter": "hue-rotate(10deg)"},
+        {"border": "8px", "shadow": "0 4px 8px rgba(0,0,0,0.2)", "border_style": "dashed", "border_color": "#333333", "filter": "saturate(1.2)"},
+        {"border": "20px", "shadow": "0 10px 25px rgba(51, 51, 51, 0.3)", "border_color": "#000000", "filter": "hue-rotate(10deg)"},
         {"border": "0px", "shadow": "0 12px 30px rgba(0,0,0,0.5)", "filter": "sepia(0.2)"},
-        {"border": "25px", "shadow": "none", "border_color": "#10B981", "filter": "drop-shadow(0 8px 16px rgba(16, 185, 129, 0.3))"}
+        {"border": "25px", "shadow": "none", "border_color": "#1a1a1a", "filter": "drop-shadow(0 8px 16px rgba(26, 26, 26, 0.3))"}
     ]
     return random.choice(styles)
 
@@ -216,11 +216,11 @@ def generate(config, daily_content):
 """
     
     return f"""
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color={typing_color}&center=true&vCenter=true&width=940&lines={typing_lines}" alt="Typing SVG" />
-</p>
-
 {banner_html}
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=000000&center=true&vCenter=true&width=940&lines={typing_lines}" alt="Typing SVG" />
+</p>
 
 <div align="center">
 
