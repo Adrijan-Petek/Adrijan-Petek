@@ -1,17 +1,11 @@
 
-<!--
-Dynamic GitHub Profile Generator - Professional Project
-Last updated: 2025-12-09 11:00:00 UTC
-Repository: https://github.com/Adrijan-Petek/Adrijan-Petek.git
--->
-
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=None&center=true&vCenter=true&width=940&lines=Code+Quality+Advocate;UI/UX+Designer;Tech+Blog+Writer;Community+Builder" alt="Typing SVG" />
 </p>
 
 
 <div align="center">
-  <img src="img\github-header-banner (5).png" alt="Header Banner" style="
+  <img src="img/github-header-banner (11).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
@@ -175,5 +169,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-12-09 10:47:18  
+⭐️ **Last Updated**: 2025-12-09 09:52:47  
 *This README updates daily with new content!* ✨
