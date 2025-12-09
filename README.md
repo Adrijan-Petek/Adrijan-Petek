@@ -1,7 +1,7 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner (11).png" alt="Header Banner" style="
+  <img src="img\github-header-banner (5).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
@@ -104,7 +104,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ### 🔥 Contribution Streak
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Adrijan-Petek&theme=tokyonight)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Adrijan-Petek&theme=dark&hide_border=true&background=000000&stroke=333333)](https://git.io/streak-stats)
 
 ### 📈 Contribution Activity
 
@@ -173,5 +173,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-12-09 10:40:55  
+⭐️ **Last Updated**: 2025-12-09 11:42:12  
 *This README updates daily with new content!* ✨
