@@ -26,7 +26,6 @@ def load_config():
             "user": {
                 "name": "Adrijan Petek",
                 "github": "Adrijan-Petek",
-                "website": "https://www.mobbchain.xyz",
                 "learning_repo": "https://github.com/Adrijan-Petek/python-beginners"
             },
             "social": {

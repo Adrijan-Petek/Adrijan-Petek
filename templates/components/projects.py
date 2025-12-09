@@ -11,9 +11,14 @@ def get_projects():
             "description": "Exploring decentralized applications"
         },
         {
-            "name": "Mobb Chain",
-            "url": "https://www.mobbchain.xyz",
-            "description": "Blockchain innovation platform"
+            "name": "Joybit",
+            "url": "https://joybit.vercel.app/",
+            "description": "Interactive gaming platform"
+        },
+        {
+            "name": "Mememint",
+            "url": "https://mememint-one.vercel.app/",
+            "description": "NFT minting platform"
         }
     ]
 

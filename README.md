@@ -1,7 +1,7 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner (11).png" alt="Header Banner" style="
+  <img src="img\github-header-banner (5).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
@@ -30,7 +30,7 @@
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovative blockchain solutions.  
 I document my learning journey in **Python**, **Solidity**, **Web Development**, and **Blockchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
 
-**🌍 Connect with me:** [X/Twitter](https://x.com/adrijan_petek) • [Zora Badge](https://zora.co/@adrijan) • [Farcaster](https://farcaster.xyz/adrijan) • [Website](https://www.mobbchain.xyz)
+**🌍 Connect with me:** [X/Twitter](https://x.com/adrijan_petek) • [Zora Badge](https://zora.co/@adrijan) • [Farcaster](https://farcaster.xyz/adrijan)
 
 </div>
 
@@ -65,7 +65,8 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 |---------|-------------|------|
 | Python Beginners | Step-by-step Python tutorials | [Explore](https://github.com/Adrijan-Petek/python-beginners) |
 | Farcaster Mini Apps | Exploring decentralized applications | [Explore](https://farcaster.xyz/adrijan) |
-| Mobb Chain | Blockchain innovation platform | [Explore](https://www.mobbchain.xyz) |
+| Joybit | Interactive gaming platform | [Explore](https://joybit.vercel.app/) |
+| Mememint | NFT minting platform | [Explore](https://mememint-one.vercel.app/) |
 
 </div>
 
@@ -85,7 +86,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 <div align="center">
 
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/adrijan_petek) [![Zora](https://img.shields.io/badge/Zora-FFB400?style=for-the-badge&logo=zora&logoColor=black)](https://zora.co/@adrijan) [![Farcaster](https://img.shields.io/badge/Farcaster-8A63D2?style=for-the-badge&logo=farcaster&logoColor=white)](https://farcaster.xyz/adrijan) [![Website](https://img.shields.io/badge/Website-4158D0?style=for-the-badge&logo=html5&logoColor=white)](https://www.mobbchain.xyz)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/adrijan_petek) [![Zora](https://img.shields.io/badge/Zora-FFB400?style=for-the-badge&logo=zora&logoColor=black)](https://zora.co/@adrijan) [![Farcaster](https://img.shields.io/badge/Farcaster-8A63D2?style=for-the-badge&logo=farcaster&logoColor=white)](https://farcaster.xyz/adrijan)
 
 </div>
 
@@ -169,5 +170,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-12-09 10:24:00  
+⭐️ **Last Updated**: 2025-12-09 11:30:23  
 *This README updates daily with new content!* ✨

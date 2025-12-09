@@ -233,7 +233,7 @@ def generate(config, daily_content):
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovative blockchain solutions.  
 I document my learning journey in **Python**, **Solidity**, **Web Development**, and **Blockchain projects** across this repository and others 📂 [python-beginners]({config['user']['learning_repo']}).  
 
-**🌍 Connect with me:** [X/Twitter]({config['social']['x']}) • [Zora Badge]({config['social']['zora']}) • [Farcaster]({config['social']['farcaster']}) • [Website]({config['user']['website']})
+**🌍 Connect with me:** [X/Twitter]({config['social']['x']}) • [Zora Badge]({config['social']['zora']}) • [Farcaster]({config['social']['farcaster']}){' • [Website](' + config['user']['website'] + ')' if config['user'].get('website') else ''}
 
 </div>
 
