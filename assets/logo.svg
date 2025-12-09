@@ -1,0 +1,52 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#A855F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366F1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F3F4F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="64" fill="url(#bgGradient)"/>
+
+  <!-- GitHub-style profile icon -->
+  <g transform="translate(32, 32)">
+    <!-- Outer circle -->
+    <circle cx="32" cy="32" r="30" fill="url(#iconGradient)" stroke="#FFFFFF" stroke-width="2"/>
+
+    <!-- Inner silhouette -->
+    <path d="M32 8 C 20 8, 12 16, 12 28 C 12 36, 16 42, 22 46 C 23 46.5, 23 47.5, 23 48 L 23 52 C 23 54, 21 56, 19 55 C 17 54, 16 52, 16 50 L 16 48 C 16 47, 15.5 46, 15 46 C 10 42, 8 36, 8 28 C 8 14, 19.5 4, 32 4 C 44.5 4, 56 14, 56 28 C 56 36, 54 42, 49 46 C 48.5 46, 48 47, 48 48 L 48 50 C 48 52, 47 54, 45 55 C 43 56, 41 54, 41 52 L 41 48 C 41 47.5, 41 46.5, 42 46 C 48 42, 52 36, 52 28 C 52 16, 44 8, 32 8 Z" fill="url(#bgGradient)"/>
+
+    <!-- Eyes -->
+    <circle cx="24" cy="24" r="2" fill="url(#bgGradient)"/>
+    <circle cx="40" cy="24" r="2" fill="url(#bgGradient)"/>
+
+    <!-- Mouth -->
+    <path d="M 28 34 Q 32 38 36 34" stroke="url(#bgGradient)" stroke-width="2" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Dynamic indicator (rotating elements) -->
+  <g transform="translate(64, 64)">
+    <!-- Rotating dots -->
+    <circle cx="40" cy="0" r="3" fill="#FFFFFF" opacity="0.8">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 0 0" to="360 0 0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="40" r="3" fill="#FFFFFF" opacity="0.6">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 0 0" to="360 0 0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-40" cy="0" r="3" fill="#FFFFFF" opacity="0.4">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 0 0" to="360 0 0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="-40" r="3" fill="#FFFFFF" opacity="0.7">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 0 0" to="360 0 0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Text label -->
+  <text x="64" y="110" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="10" font-weight="bold">DYNAMIC</text>
+</svg>

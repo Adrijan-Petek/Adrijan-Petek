@@ -1,0 +1,25 @@
+{
+    "_comment": "Dynamic GitHub Profile Generator Configuration - Updated 2025-12-09 11:00:00 UTC",
+    "_repository": "https://github.com/Adrijan-Petek/Adrijan-Petek.git",
+    "user": {
+        "name": "Adrijan Petek",
+        "github": "Adrijan-Petek",
+        "website": "https://www.mobbchain.xyz",
+        "learning_repo": "https://github.com/Adrijan-Petek/python-beginners"
+    },
+    "social": {
+        "farcaster": "https://farcaster.xyz/adrijan",
+        "x": "https://x.com/adrijan_petek",
+        "zora": "https://zora.co/@adrijan"
+    },
+    "tech_stack": [
+        "Python", "TypeScript", "Java", "HTML5", "CSS3", 
+        "VS Code", "Solidity", "Ethereum", "GitHub"
+    ],
+    "learning_paths": {
+        "python": ["Basics", "Files & CSV", "JSON & APIs", "Error Handling", "Modules & Imports", "Classes & Objects"],
+        "typescript": ["Basics", "OOP", "Design Patterns"],
+        "web_dev": ["HTML & CSS", "JavaScript", "React", "Responsive Design"],
+        "blockchain": ["Solidity Basics", "Ethereum", "Web3", "DApps", "NFTs", "Smart Contract Security"]
+    }
+}

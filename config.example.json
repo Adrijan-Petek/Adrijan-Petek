@@ -1,0 +1,23 @@
+{
+    "user": {
+        "name": "Your Name",
+        "github": "your-github-username",
+        "website": "https://your-website.com",
+        "learning_repo": "https://github.com/your-username/learning-repo"
+    },
+    "social": {
+        "twitter": "https://twitter.com/your-handle",
+        "linkedin": "https://linkedin.com/in/your-profile",
+        "devto": "https://dev.to/your-handle",
+        "medium": "https://medium.com/@your-handle"
+    },
+    "tech_stack": [
+        "Python", "JavaScript", "React", "Node.js",
+        "Docker", "AWS", "PostgreSQL", "MongoDB"
+    ],
+    "learning_paths": {
+        "python": ["Basics", "Data Structures", "Algorithms", "Web Frameworks"],
+        "javascript": ["ES6+", "React", "Node.js", "TypeScript"],
+        "cloud": ["AWS", "Docker", "Kubernetes", "CI/CD"]
+    }
+}

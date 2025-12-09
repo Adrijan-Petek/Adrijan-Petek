@@ -1,0 +1,13 @@
+# Dynamic GitHub Profile Generator
+# https://github.com/Adrijan-Petek/Adrijan-Petek.git
+# Last updated: 2025-12-09 11:00:00 UTC
+
+# Core dependencies (none required - pure Python implementation)
+# This project uses only Python standard library modules
+
+# Optional: For development and testing
+# pytest>=7.0.0        # For running tests
+# black>=22.0.0        # For code formatting
+# flake8>=4.0.0        # For linting
+
+# Note: No external dependencies needed for basic functionality
