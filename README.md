@@ -1,31 +1,31 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner (11).png" alt="Header Banner" style="
+  <img src="img/github-header-banner (1).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(26, 26, 26, 0.3);
-    border: 3px solid #1a1a1a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border: 3px dashed #333333;
     
-    filter: brightness(1.05);
+    filter: saturate(1.2);
     margin-bottom: 1.5rem;
   " />
 </div>
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=000000&center=true&vCenter=true&width=940&lines=Code+Quality+Advocate;UI/UX+Designer;Tech+Blog+Writer;Community+Builder" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=000000&center=true&vCenter=true&width=940&lines=Python+Master;TypeScript+Expert;Web3+Innovator;Open+Source+Contributor" alt="Typing SVG" />
 </p>
 
 <div align="center">
 
-![Stars](https://img.shields.io/github/stars/Adrijan-Petek?color=yellow&style=for-the-badge) ![Forks](https://img.shields.io/github/forks/Adrijan-Petek/python-beginners?color=green&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=Adrijan-Petek&color=blue&style=for-the-badge) ![GitHub followers](https://img.shields.io/github/followers/Adrijan-Petek?color=blue&style=for-the-badge)
 
 # 👋 Hi, I'm Adrijan Petek
 
-🔥 **Turning Ideas into Production-Ready Applications**
+🎯 **Focused on Quality Code & User Experience**
 
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovative blockchain solutions.  
 I document my learning journey in **Python**, **Solidity**, **Web Development**, and **Blockchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
@@ -173,5 +173,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-12-09 10:47:42  
+⭐️ **Last Updated**: 2025-12-10 00:37:40  
 *This README updates daily with new content!* ✨
