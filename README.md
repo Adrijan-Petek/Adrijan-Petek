@@ -1,31 +1,31 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner (8).png" alt="Header Banner" style="
+  <img src="img/github-header-banner (13).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
-    border-radius: 10px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    border-radius: 25px;
+    box-shadow: none;
+    border: 3px solid #1a1a1a;
     
-    transform: rotate(-1deg);
-    filter: contrast(1.1);
+    filter: drop-shadow(0 8px 16px rgba(26, 26, 26, 0.3));
     margin-bottom: 1.5rem;
   " />
 </div>
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=000000&center=true&vCenter=true&width=940&lines=Code+Quality+Advocate;UI/UX+Designer;Tech+Blog+Writer;Community+Builder" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=000000&center=true&vCenter=true&width=940&lines=Full-Stack+Developer;Blockchain+Builder;Crypto+Enthusiast;Continuous+Learner" alt="Typing SVG" />
 </p>
 
 <div align="center">
 
-![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red?style=for-the-badge) ![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/Adrijan-Petek?color=yellow&style=for-the-badge) ![Forks](https://img.shields.io/github/forks/Adrijan-Petek/python-beginners?color=green&style=for-the-badge)
 
 # 👋 Hi, I'm Adrijan Petek
 
-🔥 **Turning Ideas into Production-Ready Applications**
+⚡ **Full-Stack Developer & Web3 Explorer**
 
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovative blockchain solutions.  
 I document my learning journey in **Python**, **Solidity**, **Web Development**, and **Blockchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
@@ -53,7 +53,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 <p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Completed | ➡️ = In Progress | ⏳ = Planned</p>
 
 ### 🎯 Current Focus
-> **TypeScript Advanced Patterns** & **Web3 Development**
+> **Smart Contract Security** & **Web3 Development**
 
 ---
 
@@ -173,5 +173,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-12-13 00:35:01  
+⭐️ **Last Updated**: 2025-12-14 00:40:48  
 *This README updates daily with new content!* ✨
