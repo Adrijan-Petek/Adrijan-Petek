@@ -1,31 +1,31 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner (18).png" alt="Header Banner" style="
+  <img src="img/github-header-banner (20).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
-    border-radius: 0px;
-    box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(26, 26, 26, 0.3);
+    border: 3px solid #1a1a1a;
     
-    
-    filter: sepia(0.2);
+    filter: brightness(1.05);
     margin-bottom: 1.5rem;
   " />
 </div>
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=000000&center=true&vCenter=true&width=940&lines=Mobile+App+Developer;Cross-Platform+Expert;Performance+Optimizer;Security+Focused" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=000000&center=true&vCenter=true&width=940&lines=Full-Stack+Developer;Blockchain+Builder;Crypto+Enthusiast;Continuous+Learner" alt="Typing SVG" />
 </p>
 
 <div align="center">
 
-![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=Adrijan-Petek&color=blue&style=for-the-badge) ![GitHub followers](https://img.shields.io/github/followers/Adrijan-Petek?color=blue&style=for-the-badge)
 
 # 👋 Hi, I'm Adrijan Petek
 
-🚀 **Full-Stack Developer | Blockchain Builder | Crypto Enthusiast**
+⚡ **Full-Stack Developer & Web3 Explorer**
 
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovative blockchain solutions.  
 I document my learning journey in **Python**, **Solidity**, **Web Development**, and **Blockchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
@@ -53,7 +53,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 <p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Completed | ➡️ = In Progress | ⏳ = Planned</p>
 
 ### 🎯 Current Focus
-> **Advanced Python OOP** & **Web3 Development**
+> **Smart Contract Security** & **Web3 Development**
 
 ---
 
@@ -173,5 +173,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-12-22 00:39:35  
+⭐️ **Last Updated**: 2025-12-23 00:37:13  
 *This README updates daily with new content!* ✨
