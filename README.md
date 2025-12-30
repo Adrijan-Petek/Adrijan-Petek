@@ -1,7 +1,7 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner (1).png" alt="Header Banner" style="
+  <img src="img/github-header-banner (10).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
@@ -16,7 +16,7 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=000000&center=true&vCenter=true&width=940&lines=Smart+Contract+Developer;DApp+Creator;DeFi+Explorer;NFT+Artist" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=000000&center=true&vCenter=true&width=940&lines=Code+Quality+Advocate;UI/UX+Designer;Tech+Blog+Writer;Community+Builder" alt="Typing SVG" />
 </p>
 
 <div align="center">
@@ -25,7 +25,7 @@
 
 # 👋 Hi, I'm Adrijan Petek
 
-🔗 **Building the Future of Web3 & Blockchain**
+🚀 **Full-Stack Developer | Blockchain Builder | Crypto Enthusiast**
 
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovative blockchain solutions.  
 I document my learning journey in **Python**, **Solidity**, **Web Development**, and **Blockchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
@@ -53,7 +53,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 <p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Completed | ➡️ = In Progress | ⏳ = Planned</p>
 
 ### 🎯 Current Focus
-> **React Fundamentals** & **Web3 Development**
+> **Advanced Python OOP** & **Web3 Development**
 
 ---
 
@@ -173,5 +173,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2025-12-29 00:41:08  
+⭐️ **Last Updated**: 2025-12-30 00:37:32  
 *This README updates daily with new content!* ✨
