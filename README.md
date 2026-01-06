@@ -1,15 +1,15 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner (13).png" alt="Header Banner" style="
+  <img src="img/github-header-banner (7).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(51, 51, 51, 0.3);
-    border: 3px solid #000000;
+    border-radius: 25px;
+    box-shadow: none;
+    border: 3px solid #1a1a1a;
     
-    filter: hue-rotate(10deg);
+    filter: drop-shadow(0 8px 16px rgba(26, 26, 26, 0.3));
     margin-bottom: 1.5rem;
   " />
 </div>
@@ -21,11 +21,11 @@
 
 <div align="center">
 
-![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red?style=for-the-badge) ![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)
+![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge)
 
 # 👋 Hi, I'm Adrijan Petek
 
-🌐 **Creating Innovative Digital Solutions**
+💻 **Ruby | TypeScript | Python Developer**
 
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovative blockchain solutions.  
 I document my learning journey in **Python**, **Solidity**, **Web Development**, and **Blockchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
@@ -53,7 +53,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 <p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Completed | ➡️ = In Progress | ⏳ = Planned</p>
 
 ### 🎯 Current Focus
-> **Smart Contract Security** & **Web3 Development**
+> **TypeScript Advanced Patterns** & **Web3 Development**
 
 ---
 
@@ -173,5 +173,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2026-01-05 00:41:53  
+⭐️ **Last Updated**: 2026-01-06 00:38:34  
 *This README updates daily with new content!* ✨
