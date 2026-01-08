@@ -12,7 +12,7 @@ import json
 import random
 import glob
 from datetime import datetime
-from templates.components import header, learning, projects, stats  # , fun
+from templates.components import header, learning, projects, stats, support  # , fun
 
 
 def load_config():
@@ -74,6 +74,7 @@ def main():
     content = header.generate(config, daily_content)
     content += learning.generate(config, daily_content)
     content += projects.generate(config, daily_content)
+    content += support.generate(config, daily_content)
     content += stats.generate(config, daily_content)
     # content += fun.generate(config, daily_content)  # Temporarily disabled due to file corruption
 

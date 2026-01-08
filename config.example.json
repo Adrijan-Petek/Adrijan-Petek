@@ -6,10 +6,9 @@
         "learning_repo": "https://github.com/your-username/learning-repo"
     },
     "social": {
-        "twitter": "https://twitter.com/your-handle",
-        "linkedin": "https://linkedin.com/in/your-profile",
-        "devto": "https://dev.to/your-handle",
-        "medium": "https://medium.com/@your-handle"
+        "x": "https://x.com/your-handle",
+        "farcaster": "https://farcaster.xyz/your-handle",
+        "zora": "https://zora.co/@your-handle"
     },
     "tech_stack": [
         "Python", "JavaScript", "React", "Node.js",
@@ -17,7 +16,18 @@
     ],
     "learning_paths": {
         "python": ["Basics", "Data Structures", "Algorithms", "Web Frameworks"],
-        "javascript": ["ES6+", "React", "Node.js", "TypeScript"],
-        "cloud": ["AWS", "Docker", "Kubernetes", "CI/CD"]
+        "typescript": ["Basics", "OOP", "Design Patterns"],
+        "web_dev": ["HTML & CSS", "JavaScript", "React", "Responsive Design"],
+        "blockchain": ["Solidity Basics", "Ethereum", "Web3", "DApps", "NFTs", "Smart Contract Security"]
+    },
+    "support": {
+        "enabled": true,
+        "title": "## 💜 Support",
+        "intro": "If you’d like to support my work, you can buy my coins on Uniswap (Base).",
+        "creator_coin_label": "Creator Coin",
+        "creator_coin_uniswap_url": "https://app.uniswap.org/swap?outputCurrency=YOUR_TOKEN_ADDRESS&chain=base",
+        "image_coin_label": "Image Coin",
+        "image_coin_uniswap_url": "https://app.uniswap.org/swap?outputCurrency=YOUR_IMAGE_TOKEN_ADDRESS&chain=base",
+        "closing": "Thank you for supporting my work."
     }
 }

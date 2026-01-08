@@ -5,6 +5,7 @@ Last updated: 2025-12-09 11:00:00 UTC
 """
 import json
 import os
+import shutil
 import tempfile
 from pathlib import Path
 
@@ -41,7 +42,7 @@ class TestConfig:
             original_config = 'config.json'
             os.rename(original_config, 'config.json.backup')
 
-            os.rename(config_path, 'config.json')
+            shutil.copyfile(config_path, 'config.json')
             config = load_config()
 
             assert config["user"]["name"] == "Test User"
@@ -116,7 +117,7 @@ class TestTemplates:
     def test_template_imports(self):
         """Test that template modules can be imported"""
         try:
-            from templates.components import header, learning, projects, stats
+            from templates.components import header, learning, projects, stats, support
             assert True
         except ImportError as e:
             pytest.fail(f"Failed to import templates: {e}")

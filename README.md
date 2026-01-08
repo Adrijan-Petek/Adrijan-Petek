@@ -1,7 +1,7 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner (7).png" alt="Header Banner" style="
+  <img src="img/github-header-banner.png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
@@ -75,6 +75,13 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
+## 💜 Support
+
+If you’d like to support my work, you can buy my Creator Coin on Uniswap (Base).
+
+- [Creator Coin — Buy on Uniswap (Base)](https://app.uniswap.org/swap?outputCurrency=0xf348930442f3afB04F1f1bbE473C5F57De7b26eb&chain=base)
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -173,5 +180,5 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 
 ---
 
-⭐️ **Last Updated**: 2026-01-08 00:38:27  
+⭐️ **Last Updated**: 2026-01-08 19:32:59  
 *This README updates daily with new content!* ✨

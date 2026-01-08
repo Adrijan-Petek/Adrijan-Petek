@@ -27,5 +27,12 @@
         "typescript": ["Basics", "OOP", "Design Patterns"],
         "web_dev": ["HTML & CSS", "JavaScript", "React", "Responsive Design"],
         "blockchain": ["Solidity Basics", "Ethereum", "Web3", "DApps", "NFTs", "Smart Contract Security"]
+    },
+    "support": {
+        "enabled": true,
+        "title": "## 💜 Support",
+        "intro": "If you’d like to support my work, you can buy my Creator Coin on Uniswap (Base).",
+        "creator_coin_label": "Creator Coin",
+        "creator_coin_uniswap_url": "https://app.uniswap.org/swap?outputCurrency=0xf348930442f3afB04F1f1bbE473C5F57De7b26eb&chain=base"
     }
 }
