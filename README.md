@@ -1,7 +1,7 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner.png" alt="Header Banner" style="
+  <img src="img/github-header-banner (7).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
@@ -180,5 +180,5 @@ If you’d like to support my work, you can buy my Creator Coin on Uniswap (Base
 
 ---
 
-⭐️ **Last Updated**: 2026-01-08 19:32:59  
+⭐️ **Last Updated**: 2026-01-08 18:33:19  
 *This README updates daily with new content!* ✨
