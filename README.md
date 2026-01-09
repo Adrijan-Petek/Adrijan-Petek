@@ -1,15 +1,15 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner (7).png" alt="Header Banner" style="
+  <img src="img/github-header-banner.png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(26, 26, 26, 0.3);
-    border: 3px solid #1a1a1a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border: 3px dashed #333333;
     
-    filter: brightness(1.05);
+    filter: saturate(1.2);
     margin-bottom: 1.5rem;
   " />
 </div>
@@ -21,7 +21,7 @@
 
 <div align="center">
 
-![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge)
+![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red?style=for-the-badge) ![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)
 
 # 👋 Hi, I'm Adrijan Petek
 
@@ -53,7 +53,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 <p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Completed | ➡️ = In Progress | ⏳ = Planned</p>
 
 ### 🎯 Current Focus
-> **Smart Contract Security** & **Web3 Development**
+> **TypeScript Advanced Patterns** & **Web3 Development**
 
 ---
 
@@ -180,5 +180,5 @@ If you’d like to support my work, you can buy my Creator Coin on Uniswap (Base
 
 ---
 
-⭐️ **Last Updated**: 2026-01-08 18:33:19  
+⭐️ **Last Updated**: 2026-01-09 00:38:17  
 *This README updates daily with new content!* ✨
