@@ -1,31 +1,31 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner.png" alt="Header Banner" style="
+  <img src="img/github-header-banner (3).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    border: 3px dashed #333333;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(51, 51, 51, 0.3);
+    border: 3px solid #000000;
     
-    filter: saturate(1.2);
+    filter: hue-rotate(10deg);
     margin-bottom: 1.5rem;
   " />
 </div>
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=000000&center=true&vCenter=true&width=940&lines=Full-Stack+Developer;Blockchain+Builder;Crypto+Enthusiast;Continuous+Learner" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=000000&center=true&vCenter=true&width=940&lines=Code+Quality+Advocate;UI/UX+Designer;Tech+Blog+Writer;Community+Builder" alt="Typing SVG" />
 </p>
 
 <div align="center">
 
-![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red?style=for-the-badge) ![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)
+![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge)
 
 # 👋 Hi, I'm Adrijan Petek
 
-⚡ **Full-Stack Developer & Web3 Explorer**
+🚀 **Full-Stack Developer | Blockchain Builder | Crypto Enthusiast**
 
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovative blockchain solutions.  
 I document my learning journey in **Python**, **Solidity**, **Web Development**, and **Blockchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
@@ -53,7 +53,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 <p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Completed | ➡️ = In Progress | ⏳ = Planned</p>
 
 ### 🎯 Current Focus
-> **TypeScript Advanced Patterns** & **Web3 Development**
+> **Advanced Python OOP** & **Web3 Development**
 
 ---
 
@@ -180,5 +180,5 @@ If you’d like to support my work, you can buy my Creator Coin on Uniswap (Base
 
 ---
 
-⭐️ **Last Updated**: 2026-01-09 00:38:17  
+⭐️ **Last Updated**: 2026-01-10 00:37:28  
 *This README updates daily with new content!* ✨
