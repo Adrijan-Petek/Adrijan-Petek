@@ -1,15 +1,15 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner (21).png" alt="Header Banner" style="
+  <img src="img/github-header-banner (3).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(51, 51, 51, 0.3);
-    border: 3px solid #000000;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(26, 26, 26, 0.3);
+    border: 3px solid #1a1a1a;
     
-    filter: hue-rotate(10deg);
+    filter: brightness(1.05);
     margin-bottom: 1.5rem;
   " />
 </div>
@@ -21,11 +21,11 @@
 
 <div align="center">
 
-![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red?style=for-the-badge) ![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)
+![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge)
 
 # 👋 Hi, I'm Adrijan Petek
 
-🎯 **Focused on Quality Code & User Experience**
+💻 **Ruby | TypeScript | Python Developer**
 
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovative blockchain solutions.  
 I document my learning journey in **Python**, **Solidity**, **Web Development**, and **Blockchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
@@ -53,7 +53,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 <p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Completed | ➡️ = In Progress | ⏳ = Planned</p>
 
 ### 🎯 Current Focus
-> **Web3 Integration** & **Web3 Development**
+> **Advanced Python OOP** & **Web3 Development**
 
 ---
 
@@ -180,5 +180,5 @@ If you’d like to support my work, you can buy my Creator Coin on Uniswap (Base
 
 ---
 
-⭐️ **Last Updated**: 2026-01-17 00:36:42  
+⭐️ **Last Updated**: 2026-01-18 00:41:58  
 *This README updates daily with new content!* ✨
