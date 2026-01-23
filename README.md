@@ -1,22 +1,22 @@
 
 
 <div align="center">
-  <img src="img/github-header-banner (21).png" alt="Header Banner" style="
+  <img src="img/github-header-banner (18).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(26, 26, 26, 0.3);
+    border-radius: 25px;
+    box-shadow: none;
     border: 3px solid #1a1a1a;
     
-    filter: brightness(1.05);
+    filter: drop-shadow(0 8px 16px rgba(26, 26, 26, 0.3));
     margin-bottom: 1.5rem;
   " />
 </div>
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=000000&center=true&vCenter=true&width=940&lines=Smart+Contract+Developer;DApp+Creator;DeFi+Explorer;NFT+Artist" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=000000&center=true&vCenter=true&width=940&lines=Generate+Beautiful+READMEs;Professional+Documentation;Automated+Repository+Analysis;Social+Media+Integration" alt="Typing SVG" />
 </p>
 
 <div align="center">
@@ -25,7 +25,7 @@
 
 # 👋 Hi, I'm Adrijan Petek
 
-⭐️ **Passionate Coder & Continuous Learner**
+🌐 **Creating Innovative Digital Solutions**
 
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovative blockchain solutions.  
 I document my learning journey in **Python**, **Solidity**, **Web Development**, and **Blockchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
@@ -53,7 +53,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 <p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Completed | ➡️ = In Progress | ⏳ = Planned</p>
 
 ### 🎯 Current Focus
-> **React Fundamentals** & **Web3 Development**
+> **Smart Contract Security** & **Web3 Development**
 
 ---
 
@@ -180,5 +180,5 @@ If you’d like to support my work, you can buy my Creator Coin on Uniswap (Base
 
 ---
 
-⭐️ **Last Updated**: 2026-01-22 00:39:51  
+⭐️ **Last Updated**: 2026-01-23 00:39:11  
 *This README updates daily with new content!* ✨
