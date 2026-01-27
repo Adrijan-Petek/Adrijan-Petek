@@ -1,8 +1,7 @@
 
 
-
 <div align="center">
-  <img src="img/github-header-banner (17).png" alt="Header Banner" style="
+  <img src="img/github-header-banner (9).png" alt="Header Banner" style="
     width: 100%; 
     max-height: 280px; 
     object-fit: cover; 
@@ -17,16 +16,16 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=000000&center=true&vCenter=true&width=940&lines=Code+Quality+Advocate;UI/UX+Designer;Tech+Blog+Writer;Community+Builder" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=000000&center=true&vCenter=true&width=940&lines=Python+Master;TypeScript+Expert;Web3+Innovator;Open+Source+Contributor" alt="Typing SVG" />
 </p>
 
 <div align="center">
 
-![Stars](https://img.shields.io/github/stars/Adrijan-Petek?color=yellow&style=for-the-badge) ![Forks](https://img.shields.io/github/forks/Adrijan-Petek/python-beginners?color=green&style=for-the-badge)
+![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red?style=for-the-badge) ![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)
 
 # 👋 Hi, I'm Adrijan Petek
 
-⭐️ **Passionate Coder & Continuous Learner**
+🔥 **Turning Ideas into Production-Ready Applications**
 
 Experimenting with **Farcaster mini apps** 🌐 and exploring innovative blockchain solutions.  
 I document my learning journey in **Python**, **Solidity**, **Web Development**, and **Blockchain projects** across this repository and others 📂 [python-beginners](https://github.com/Adrijan-Petek/python-beginners).  
@@ -54,7 +53,7 @@ I document my learning journey in **Python**, **Solidity**, **Web Development**,
 <p style="color: #888; font-size: 0.9em; margin-top: 15px; text-align: center;">✅ = Completed | ➡️ = In Progress | ⏳ = Planned</p>
 
 ### 🎯 Current Focus
-> **React Fundamentals** & **Web3 Development**
+> **Web3 Integration** & **Web3 Development**
 
 ---
 
@@ -181,5 +180,5 @@ If you’d like to support my work, you can buy my Creator Coin on Uniswap (Base
 
 ---
 
-⭐️ **Last Updated**: 2026-01-26 00:41:56  
+⭐️ **Last Updated**: 2026-01-27 00:40:42  
 *This README updates daily with new content!* ✨
