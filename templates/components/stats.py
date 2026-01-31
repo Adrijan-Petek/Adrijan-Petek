@@ -62,21 +62,35 @@ def generate(config, daily_content):
     ai_badges = " ".join([_ai_badge(x) for x in ai_stack]) if ai_stack else ""
 
     parts = [
-        "## Tech stack\n\n<div align=\"center\">\n\n"
+        "## Tech stack\n\n"
+        + '<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">\n'
+        + '  <div align="center">\n\n'
         + tech_badges
-        + "\n\n</div>\n\n"
-        + "## GitHub stats\n\n<div align=\"center\">\n\n"
+        + "\n\n  </div>\n"
+        + "</div>\n",
+        "## GitHub stats\n\n"
+        + '<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">\n'
+        + '  <div align="center">\n\n'
         + f"![GitHub Stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username={github_user})\n\n"
         + f"[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user={github_user}&theme={theme}&hide_border=true)](https://git.io/streak-stats)\n\n"
         + f"[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username={github_user}&theme={theme})](https://github.com/ashutosh00710/github-readme-activity-graph)\n\n"
-        + "</div>\n"
+        + "  </div>\n"
+        + "</div>\n",
     ]
 
     if ai_enabled:
         focus_line = f"- Focus: **{ai_focus}**\n\n" if ai_focus else ""
         badges_block = ""
         if ai_badges:
-            badges_block = f'<div align="center">\n\n{ai_badges}\n\n</div>\n'
-        parts.append("## AI\n\n" + focus_line + badges_block)
+            badges_block = (
+                '<div align="center">\n\n' + ai_badges + "\n\n</div>\n"
+            )
+        parts.append(
+            "## AI\n\n"
+            + '<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">\n'
+            + focus_line
+            + badges_block
+            + "</div>\n"
+        )
 
     return "\n".join([p.strip() for p in parts if p.strip()]) + "\n"

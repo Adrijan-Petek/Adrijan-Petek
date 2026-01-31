@@ -3,13 +3,14 @@
         "name": "Your Name",
         "github": "your-github-username",
         "website": "https://your-website.com",
+        "tagline": "Your role · Focus · Specialty",
         "learning_repo": "https://github.com/your-username/learning-repo"
     },
     "social": {
         "x": "https://x.com/your-handle",
         "farcaster": "https://farcaster.xyz/your-handle",
         "zora": "https://zora.co/@your-handle",
-        "typing_svg_enabled": true
+        "typing_svg_enabled": false
     },
     "tech_stack": [
         "TypeScript",

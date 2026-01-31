@@ -41,32 +41,31 @@ def get_projects():
 def generate(config, daily_content):
     projects_list = get_projects()
 
-    content = "## Featured projects\n\n"
-    content += '<table width="100%">\n'
-
+    rows = []
     for idx in range(0, len(projects_list), 2):
         left = projects_list[idx]
         right = projects_list[idx + 1] if idx + 1 < len(projects_list) else None
 
-        content += "  <tr>\n"
-        if right:
-            content += '    <td width="50%" valign="top">\n'
-            content += f'      <h3><a href="{left["url"]}">{left["name"]}</a></h3>\n'
-            content += f'      <p>{left["description"]}</p>\n'
-            content += "    </td>\n"
+        def card(p):
+            if not p:
+                return "&nbsp;"
+            return (
+                '<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);">'
+                f'<div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="{p["url"]}">{p["name"]}</a></div>'
+                f'<div style="color:#9ca3af;">{p["description"]}</div>'
+                "</div>"
+            )
 
-            content += '    <td width="50%" valign="top">\n'
-            content += f'      <h3><a href="{right["url"]}">{right["name"]}</a></h3>\n'
-            content += f'      <p>{right["description"]}</p>\n'
-            content += "    </td>\n"
-        else:
-            content += '    <td colspan="2" valign="top">\n'
-            content += f'      <h3><a href="{left["url"]}">{left["name"]}</a></h3>\n'
-            content += f'      <p>{left["description"]}</p>\n'
-            content += "    </td>\n"
+        rows.append(
+            "<tr>"
+            f'<td width="50%" valign="top">{card(left)}</td>'
+            f'<td width="50%" valign="top">{card(right)}</td>'
+            "</tr>"
+        )
 
-        content += "  </tr>\n"
-
-    content += "</table>\n"
-
-    return content
+    return (
+        "## Featured projects\n\n"
+        '<table width="100%" cellspacing="0" cellpadding="6">\n'
+        + "\n".join(rows)
+        + "\n</table>\n"
+    )

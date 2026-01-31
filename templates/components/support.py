@@ -33,7 +33,7 @@ def generate(config, daily_content):
         ):
             img_html = (
                 f'<a href="{creator_url}"><img src="{creator_image}" alt="{creator_label}" '
-                'width="96" height="96" style="border-radius: 999px; border: 1px solid rgba(0,0,0,0.12);" /></a><br/>'
+                'width="96" height="96" style="border-radius: 999px; border: 1px solid rgba(0,0,0,0.12);" /></a>'
             )
         buy_badge = ""
         if creator_url:
@@ -42,17 +42,17 @@ def generate(config, daily_content):
                 'src="https://img.shields.io/badge/Buy%20on%20Uniswap-Base-0ea5e9?style=for-the-badge" /></a>'
             )
 
-        lines.extend(
-            [
-                '<table align="center">',
-                "  <tr>",
-                "    <td align=\"center\">",
-                f"      {img_html}<strong>{creator_label}</strong><br/>{buy_badge}",
-                "    </td>",
-                "  </tr>",
-                "</table>",
-            ]
+        lines.append(
+            '<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);" align="center">'
         )
+        if img_html:
+            lines.append(img_html)
+            lines.append("<br/>")
+        lines.append(f"<strong>{creator_label}</strong>")
+        if buy_badge:
+            lines.append("<br/><br/>")
+            lines.append(buy_badge)
+        lines.append("</div>")
 
     closing = support.get("closing")
     if closing:

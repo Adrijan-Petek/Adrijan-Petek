@@ -18,45 +18,20 @@ def _render_list(items):
 def generate(config, daily_content):
     focus = daily_content.get("learning_focus") or "Building"
 
-    core = [
-        "TypeScript / Next.js / React",
-        "Python",
-        "API design and integrations",
-        "Performance & security",
-        "Product-focused engineering",
-    ]
-    exploring = [
-        "AI-enabled apps (LLMs, tooling, evals)",
-        "Solidity / EVM",
-        "Onchain integrations",
-        "Farcaster mini apps",
-        "Smart contract security",
-    ]
-
     ai = config.get("ai", {}) or {}
+    ai_line = ""
     if ai.get("enabled") is True and ai.get("focus"):
-        exploring.insert(0, ai["focus"])
+        ai_line = f"<li><strong>AI</strong>: {ai['focus']}</li>"
 
-    content = "## About\n\n"
-    content += f"- Current focus: **{focus}**\n"
-    content += "- Open to: collaborations and new opportunities\n\n"
+    return f"""
+## About
 
-    content += """<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Core</h3>
-"""
-    content += _render_list(core)
-    content += """
-    </td>
-    <td width="50%" valign="top">
-      <h3>Exploring</h3>
-"""
-    content += _render_list(exploring)
-    content += """
-    </td>
-  </tr>
-</table>
-"""
-
-    return content
+<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">
+  <ul>
+    <li><strong>Current focus</strong>: {focus}</li>
+    <li><strong>Building</strong>: web + mobile + onchain integrations</li>
+    {ai_line}
+    <li><strong>Open to</strong>: collaborations and new opportunities</li>
+  </ul>
+</div>
+""".strip() + "\n"

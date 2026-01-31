@@ -93,7 +93,9 @@ def generate(config, daily_content):
     random.seed(today.timetuple().tm_yday)
 
     banner_style = get_daily_banner_style()
-    banner_path = get_random_banner()
+    banner_path = "img/github-header-banner.png"
+    if not glob.glob(banner_path):
+        banner_path = get_random_banner()
 
     banner_html = ""
     if banner_path:
@@ -142,6 +144,7 @@ def generate(config, daily_content):
     badges_line = " ".join(badges)
 
     website = config.get("user", {}).get("website")
+    tagline = config.get("user", {}).get("tagline")
     links = []
     if social.get("x"):
         links.append(f"[X/Twitter]({social['x']})")
@@ -157,11 +160,11 @@ def generate(config, daily_content):
     return f"""
 {banner_html}
 {typing_html}
-<div align="center">
+<div align="center" style="margin-top: 6px;">
 
 # {config['user']['name']}
 
-{daily_intro}
+{tagline or daily_intro}
 
 Building and shipping applications with a focus on performance, security, and clean UX.
 

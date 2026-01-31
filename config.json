@@ -4,13 +4,14 @@
     "user": {
         "name": "Adrijan Petek",
         "github": "Adrijan-Petek",
+        "tagline": "Mobile app developer · Web3 builder · AI-enabled products",
         "learning_repo": "https://github.com/Adrijan-Petek/python-beginners"
     },
     "social": {
         "farcaster": "https://farcaster.xyz/adrijan",
         "x": "https://x.com/adrijan_petek",
         "zora": "https://zora.co/@adrijan",
-        "typing_svg_enabled": true
+        "typing_svg_enabled": false
     },
     "theme": {
         "primary_color": "#000000",
