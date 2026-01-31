@@ -34,7 +34,8 @@ Building and shipping applications with a focus on performance, security, and cl
 
 ---
 
-## 🧭 About
+## About
+<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
   <p><strong>Full-stack Web3 developer</strong> focused on building decentralized applications, on-chain tools, and creative digital experiences.</p>
@@ -46,7 +47,8 @@ Building and shipping applications with a focus on performance, security, and cl
   </ul>
 </div>
 
-## 🧰 Skills
+## Skills
+<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
   <p><strong>Core</strong></p>
@@ -93,7 +95,7 @@ Building and shipping applications with a focus on performance, security, and cl
 </div>
 
 <details>
-<summary><strong>🎯 Current Focus</strong></summary>
+<summary><strong>Current Focus</strong></summary>
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04); margin-top:10px;">
   <ul>
@@ -106,7 +108,7 @@ Building and shipping applications with a focus on performance, security, and cl
 </details>
 
 <details>
-<summary><strong>📌 Key Projects (Pinned)</strong></summary>
+<summary><strong>Key Projects (Pinned)</strong></summary>
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04); margin-top:10px;">
   <ul>
@@ -121,7 +123,7 @@ Building and shipping applications with a focus on performance, security, and cl
 </details>
 
 <details>
-<summary><strong>📈 Recent Activity</strong></summary>
+<summary><strong>Recent Activity</strong></summary>
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04); margin-top:10px;">
   <ul>
@@ -133,7 +135,7 @@ Building and shipping applications with a focus on performance, security, and cl
 </details>
 
 <details>
-<summary><strong>🛠️ Tools & Technologies</strong></summary>
+<summary><strong>Tools & Technologies</strong></summary>
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04); margin-top:10px;">
   <ul>
@@ -148,7 +150,8 @@ Building and shipping applications with a focus on performance, security, and cl
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
+<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <table width="100%" cellspacing="0" cellpadding="6">
 <tr><td width="33.3%" valign="top"><div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:14px; background:rgba(14,165,233,0.04);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://github.com/Adrijan-Petek/python-beginners">Python Beginners</a></div><div style="color:#9ca3af;">Step-by-step Python tutorials</div></div></td><td width="33.3%" valign="top"><div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:14px; background:rgba(14,165,233,0.04);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://farcaster.xyz/adrijan">Farcaster Mini Apps</a></div><div style="color:#9ca3af;">Exploring decentralized applications</div></div></td><td width="33.3%" valign="top"><div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:14px; background:rgba(14,165,233,0.04);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://joybit.vercel.app/">Joybit</a></div><div style="color:#9ca3af;">Interactive gaming platform</div></div></td></tr>
@@ -158,7 +161,8 @@ Building and shipping applications with a focus on performance, security, and cl
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
+<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
   <div align="center">
@@ -167,7 +171,8 @@ Building and shipping applications with a focus on performance, security, and cl
 
   </div>
 </div>
-## 📈 GitHub Stats
+## GitHub Stats
+<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
   <div align="center">
@@ -181,6 +186,7 @@ Building and shipping applications with a focus on performance, security, and cl
   </div>
 </div>
 ## 🤖 AI
+<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
 <strong>Focus:</strong> LLM-powered apps and AI tooling
@@ -196,6 +202,7 @@ Building and shipping applications with a focus on performance, security, and cl
 
 ## Support
 
+<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
 <table width="100%" cellspacing="0" cellpadding="6">
   <tr>
@@ -207,7 +214,8 @@ Building and shipping applications with a focus on performance, security, and cl
 
 ---
 
-## 🗞️ Daily Byte
+## Daily Byte
+<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
   <em>Deployed a smart contract today. It was so immutable it wouldn’t even accept my last-minute changes.</em>
@@ -215,4 +223,4 @@ Building and shipping applications with a focus on performance, security, and cl
 
 ---
 
-**Last updated:** 2026-01-31 20:42:20 UTC
+**Last updated:** 2026-01-31 20:58:34 UTC

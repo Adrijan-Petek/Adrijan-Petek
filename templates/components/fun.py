@@ -18,7 +18,8 @@ def generate(config, daily_content):
     note = random.choice(notes)
 
     return f"""
-## 🗞️ Daily Byte
+## Daily Byte
+<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
   <em>{note}</em>

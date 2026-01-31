@@ -18,7 +18,7 @@ def generate(config, daily_content):
     if enabled is not True and not (creator_url or creator_image):
         return ""
 
-    title = support.get("title") or "## 💜 Support"
+    title = support.get("title") or "## Support"
     intro = support.get("intro") or "If you’d like to support my work:"
     creator_label = support.get("creator_coin_label") or "Creator Coin"
 
@@ -42,6 +42,7 @@ def generate(config, daily_content):
                 'src="https://img.shields.io/badge/Buy%20on%20Uniswap-Base-0ea5e9?style=for-the-badge" /></a>'
             )
 
+        lines.append('<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">')
         lines.append(
             '<div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">'
         )

@@ -71,13 +71,15 @@ def generate(config, daily_content):
     ai_badges = " ".join([_ai_badge(x) for x in ai_stack]) if ai_stack else ""
 
     parts = [
-        "## 🛠️ Tech Stack\n\n"
+        "## Tech Stack\n"
+        + '<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">\n\n'
         + '<div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">\n'
         + '  <div align="center">\n\n'
         + tech_badges
         + "\n\n  </div>\n"
         + "</div>\n",
-        "## 📈 GitHub Stats\n\n"
+        "## GitHub Stats\n"
+        + '<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">\n\n'
         + '<div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">\n'
         + '  <div align="center">\n\n'
         + f"[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user={github_user}&theme={theme}&hide_border=true)](https://git.io/streak-stats)\n\n"
@@ -95,7 +97,8 @@ def generate(config, daily_content):
                 '<div align="center">\n\n' + ai_badges + "\n\n</div>\n"
             )
         parts.append(
-            "## 🤖 AI\n\n"
+            "## 🤖 AI\n"
+            + '<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">\n\n'
             + '<div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">\n'
             + focus_line
             + badges_block

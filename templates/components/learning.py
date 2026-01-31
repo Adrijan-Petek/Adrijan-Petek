@@ -2,7 +2,8 @@ def generate(config, daily_content):
     border = "1px solid rgba(14,165,233,0.35)"
     bg = "rgba(14,165,233,0.04)"
     return f"""
-## 🧭 About
+## About
+<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:{border}; border-radius:14px; padding:16px; background:{bg};">
   <p><strong>Full-stack Web3 developer</strong> focused on building decentralized applications, on-chain tools, and creative digital experiences.</p>
@@ -14,7 +15,8 @@ def generate(config, daily_content):
   </ul>
 </div>
 
-## 🧰 Skills
+## Skills
+<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:{border}; border-radius:14px; padding:16px; background:{bg};">
   <p><strong>Core</strong></p>
@@ -61,7 +63,7 @@ def generate(config, daily_content):
 </div>
 
 <details>
-<summary><strong>🎯 Current Focus</strong></summary>
+<summary><strong>Current Focus</strong></summary>
 
 <div style="border:{border}; border-radius:14px; padding:16px; background:{bg}; margin-top:10px;">
   <ul>
@@ -74,7 +76,7 @@ def generate(config, daily_content):
 </details>
 
 <details>
-<summary><strong>📌 Key Projects (Pinned)</strong></summary>
+<summary><strong>Key Projects (Pinned)</strong></summary>
 
 <div style="border:{border}; border-radius:14px; padding:16px; background:{bg}; margin-top:10px;">
   <ul>
@@ -89,7 +91,7 @@ def generate(config, daily_content):
 </details>
 
 <details>
-<summary><strong>📈 Recent Activity</strong></summary>
+<summary><strong>Recent Activity</strong></summary>
 
 <div style="border:{border}; border-radius:14px; padding:16px; background:{bg}; margin-top:10px;">
   <ul>
@@ -101,7 +103,7 @@ def generate(config, daily_content):
 </details>
 
 <details>
-<summary><strong>🛠️ Tools & Technologies</strong></summary>
+<summary><strong>Tools & Technologies</strong></summary>
 
 <div style="border:{border}; border-radius:14px; padding:16px; background:{bg}; margin-top:10px;">
   <ul>

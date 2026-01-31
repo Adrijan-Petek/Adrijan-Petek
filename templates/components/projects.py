@@ -71,7 +71,8 @@ def generate(config, daily_content):
         )
 
     return (
-        "## 🚀 Featured Projects\n\n"
+        "## Featured Projects\n"
+        '<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">\n\n'
         '<table width="100%" cellspacing="0" cellpadding="6">\n'
         + "\n".join(rows)
         + "\n</table>\n"
