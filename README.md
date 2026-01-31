@@ -114,11 +114,13 @@ Building and shipping applications with a focus on performance, security, and cl
 ## GitHub stats
 
 <div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">
+  <table width="100%" cellspacing="0" cellpadding="6">
+    <tr>
+      <td width="50%" align="center">[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Adrijan-Petek&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)</td>
+      <td width="50%" align="center">![GitHub Stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username=Adrijan-Petek)</td>
+    </tr>
+  </table>
   <div align="center">
-
-![GitHub Stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username=Adrijan-Petek)
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Adrijan-Petek&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
 [![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Adrijan-Petek&theme=tokyonight)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
@@ -127,7 +129,7 @@ Building and shipping applications with a focus on performance, security, and cl
 ## AI
 
 <div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">
-- Focus: **LLM-powered apps and AI tooling**
+<strong>Focus:</strong> LLM-powered apps and AI tooling
 
 <div align="center">
 
@@ -143,11 +145,12 @@ Building and shipping applications with a focus on performance, security, and cl
 If you’d like to support my work, you can buy my Creator Coin on Uniswap (Base).
 
 <div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);" align="center">
-<a href="https://app.uniswap.org/swap?outputCurrency=0xf348930442f3afB04F1f1bbE473C5F57De7b26eb&chain=base"><img src="adrijan.gif" alt="Creator Coin" width="96" height="96" style="border-radius: 999px; border: 1px solid rgba(0,0,0,0.12);" /></a>
-<br/>
-<strong>Creator Coin</strong>
-<br/><br/>
-<a href="https://app.uniswap.org/swap?outputCurrency=0xf348930442f3afB04F1f1bbE473C5F57De7b26eb&chain=base"><img alt="Buy on Uniswap" src="https://img.shields.io/badge/Buy%20on%20Uniswap-Base-0ea5e9?style=for-the-badge" /></a>
+<table width="100%" cellspacing="0" cellpadding="6">
+  <tr>
+    <td width="50%" align="center"><a href="https://app.uniswap.org/swap?outputCurrency=0xf348930442f3afB04F1f1bbE473C5F57De7b26eb&chain=base"><img src="adrijan.gif" alt="Creator Coin" width="96" height="96" style="border-radius: 999px; border: 1px solid rgba(0,0,0,0.12);" /></a><br/><strong>Creator Coin</strong></td>
+    <td width="50%" align="center"><a href="https://app.uniswap.org/swap?outputCurrency=0xf348930442f3afB04F1f1bbE473C5F57De7b26eb&chain=base"><img alt="Buy on Uniswap" src="https://img.shields.io/badge/Buy%20on%20Uniswap-Base-0ea5e9?style=for-the-badge" /></a></td>
+  </tr>
+</table>
 </div>
 
 ---
@@ -160,5 +163,4 @@ If you’d like to support my work, you can buy my Creator Coin on Uniswap (Base
 
 ---
 
-**Last updated:** 2026-01-31 21:14:16  
-Generated automatically.
+**Last updated:** 2026-01-31 20:24:06 UTC

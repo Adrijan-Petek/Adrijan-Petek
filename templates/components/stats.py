@@ -73,16 +73,18 @@ def generate(config, daily_content):
         + "</div>\n",
         "## GitHub stats\n\n"
         + '<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">\n'
-        + '  <div align="center">\n\n'
-        + f"![GitHub Stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username={github_user})\n\n"
-        + f"[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user={github_user}&theme={theme}&hide_border=true)](https://git.io/streak-stats)\n\n"
-        + f"[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username={github_user}&theme={theme})](https://github.com/ashutosh00710/github-readme-activity-graph)\n\n"
-        + "  </div>\n"
+        + '  <table width="100%" cellspacing="0" cellpadding="6">\n'
+        + "    <tr>\n"
+        + f'      <td width="50%" align="center">[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user={github_user}&theme={theme}&hide_border=true)](https://git.io/streak-stats)</td>\n'
+        + f'      <td width="50%" align="center">![GitHub Stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username={github_user})</td>\n'
+        + "    </tr>\n"
+        + "  </table>\n"
+        + f'  <div align="center">\n\n[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username={github_user}&theme={theme})](https://github.com/ashutosh00710/github-readme-activity-graph)\n\n  </div>\n'
         + "</div>\n",
     ]
 
     if ai_enabled:
-        focus_line = f"- Focus: **{ai_focus}**\n\n" if ai_focus else ""
+        focus_line = f"<strong>Focus:</strong> {ai_focus}\n\n" if ai_focus else ""
         badges_block = ""
         if ai_badges:
             badges_block = (

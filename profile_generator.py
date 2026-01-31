@@ -80,11 +80,7 @@ def main():
         fun.generate(config, daily_content).strip(),
     ]
 
-    footer = (
-        f"**Last updated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}  \n"
-        "Generated automatically."
-    )
-
+    footer = f"**Last updated:** {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')} UTC"
     content = "\n\n---\n\n".join([s for s in sections if s] + [footer]) + "\n"
 
     # Write to README.md
