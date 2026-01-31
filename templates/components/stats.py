@@ -1,4 +1,7 @@
-def _badge(label: str, color: str, logo: str | None = None, logo_color: str = "white") -> str:
+from typing import Optional
+
+
+def _badge(label: str, color: str, logo: Optional[str] = None, logo_color: str = "white") -> str:
     label_escaped = label.replace(" ", "%20")
     logo_part = f"&logo={logo}" if logo else ""
     return (
