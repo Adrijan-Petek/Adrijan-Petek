@@ -18,7 +18,7 @@ def generate(config, daily_content):
     if enabled is not True and not (creator_url or creator_image):
         return ""
 
-    title = support.get("title") or "## Support"
+    title = support.get("title") or "## 💜 Support"
     intro = support.get("intro") or "If you’d like to support my work:"
     creator_label = support.get("creator_coin_label") or "Creator Coin"
 
@@ -43,7 +43,7 @@ def generate(config, daily_content):
             )
 
         lines.append(
-            '<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">'
+            '<div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">'
         )
         lines.append('<table width="100%" cellspacing="0" cellpadding="6">')
         lines.append("  <tr>")

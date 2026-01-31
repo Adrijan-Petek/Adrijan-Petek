@@ -56,7 +56,13 @@ def generate(config, daily_content):
     theme = daily_content["color_theme"]
 
     tech_stack = config.get("tech_stack", []) or []
-    tech_badges = " ".join([_tech_badge(t) for t in tech_stack])
+    seen = set()
+    deduped = []
+    for t in tech_stack:
+        if t not in seen:
+            seen.add(t)
+            deduped.append(t)
+    tech_badges = " ".join([_tech_badge(t) for t in deduped])
 
     ai = config.get("ai", {}) or {}
     ai_enabled = ai.get("enabled") is True
@@ -65,14 +71,14 @@ def generate(config, daily_content):
     ai_badges = " ".join([_ai_badge(x) for x in ai_stack]) if ai_stack else ""
 
     parts = [
-        "## Tech stack\n\n"
-        + '<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">\n'
+        "## 🛠️ Tech Stack\n\n"
+        + '<div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">\n'
         + '  <div align="center">\n\n'
         + tech_badges
         + "\n\n  </div>\n"
         + "</div>\n",
-        "## GitHub stats\n\n"
-        + '<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">\n'
+        "## 📈 GitHub Stats\n\n"
+        + '<div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">\n'
         + '  <div align="center">\n\n'
         + f"[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user={github_user}&theme={theme}&hide_border=true)](https://git.io/streak-stats)\n\n"
         + f"![GitHub Stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username={github_user})\n\n"
@@ -89,8 +95,8 @@ def generate(config, daily_content):
                 '<div align="center">\n\n' + ai_badges + "\n\n</div>\n"
             )
         parts.append(
-            "## AI\n\n"
-            + '<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">\n'
+            "## 🤖 AI\n\n"
+            + '<div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">\n'
             + focus_line
             + badges_block
             + "</div>\n"

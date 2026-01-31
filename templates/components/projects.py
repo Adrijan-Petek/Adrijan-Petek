@@ -49,7 +49,7 @@ def generate(config, daily_content):
             return "&nbsp;"
         description = project.get("description") or ""
         return (
-            '<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);">'
+            '<div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:14px; background:rgba(14,165,233,0.04);">'
             f'<div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="{project["url"]}">{project["name"]}</a></div>'
             f'<div style="color:#9ca3af;">{description}</div>'
             "</div>"
@@ -71,7 +71,7 @@ def generate(config, daily_content):
         )
 
     return (
-        "## Featured projects\n\n"
+        "## 🚀 Featured Projects\n\n"
         '<table width="100%" cellspacing="0" cellpadding="6">\n'
         + "\n".join(rows)
         + "\n</table>\n"

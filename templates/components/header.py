@@ -1,4 +1,5 @@
 import glob
+import os
 import random
 from datetime import datetime
 
@@ -44,21 +45,7 @@ def get_daily_intro():
 
 
 def get_daily_typing_color():
-    colors = [
-        "2563EB",
-        "DC2626",
-        "16A34A",
-        "EA580C",
-        "7C3AED",
-        "0891B2",
-        "BE123C",
-        "65A30D",
-        "1E40AF",
-        "0F766E",
-        "6B21A8",
-        "0369A1",
-    ]
-    return random.choice(colors)
+    return "0ea5e9"
 
 
 def get_daily_typing_lines():
@@ -125,7 +112,7 @@ def generate(config, daily_content):
     if typing_enabled:
         typing_html = f"""
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2800&pause=2000&color={typing_color}&center=true&vCenter=true&width=920&lines={typing_lines}" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=2000&color={typing_color}&center=true&vCenter=true&width=920&lines={typing_lines}" alt="Typing SVG" />
 </p>
 """
 
@@ -167,10 +154,16 @@ def generate(config, daily_content):
 
     links_line = " · ".join(links)
 
+    logo_html = ""
+    if os.path.exists("assets/logo.svg"):
+        logo_html = '<img src="assets/logo.svg" alt="Logo" width="48" height="48" style="margin-bottom: 6px;" />'
+
     return f"""
 {banner_html}
 {typing_html}
 <div align="center" style="margin-top: 6px;">
+
+{logo_html}
 
 # {config['user']['name']}
 
