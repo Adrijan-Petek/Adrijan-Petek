@@ -1,3 +1,6 @@
+import os
+
+
 def generate(config, daily_content):
     """Generate an optional support section.
 
@@ -5,37 +8,54 @@ def generate(config, daily_content):
     """
     support = config.get("support", {}) or {}
 
-    # Show section if explicitly enabled or if any URLs are present
     enabled = support.get("enabled")
-
-    creator_url = support.get("creator_coin_uniswap_url") or support.get("creator_coin_url")
-    image_url = support.get("image_coin_uniswap_url") or support.get("image_coin_url")
-
     if enabled is False:
         return ""
 
-    if enabled is not True and not (creator_url or image_url):
+    creator_url = support.get("creator_coin_uniswap_url") or support.get("creator_coin_url")
+    creator_image = support.get("creator_coin_image") or support.get("creator_coin_image_url")
+
+    if enabled is not True and not (creator_url or creator_image):
         return ""
 
-    title = support.get("title") or "## 💜 Support"
-    intro = support.get("intro") or (
-        "If you’d like to support my work, you can pick up my coins on Uniswap (Base)."
-    )
-
+    title = support.get("title") or "## Support"
+    intro = support.get("intro") or "If you’d like to support my work:"
     creator_label = support.get("creator_coin_label") or "Creator Coin"
-    image_label = support.get("image_coin_label") or "Image Coin"
 
     lines = [title, "", intro, ""]
 
-    if creator_url:
-        lines.append(f"- [{creator_label} — Buy on Uniswap (Base)]({creator_url})")
-    if image_url:
-        lines.append(f"- [{image_label} — Buy on Uniswap (Base)]({image_url})")
+    if creator_url or creator_image:
+        img_html = ""
+        if creator_image and (
+            creator_image.startswith("http://")
+            or creator_image.startswith("https://")
+            or os.path.exists(creator_image)
+        ):
+            img_html = (
+                f'<a href="{creator_url}"><img src="{creator_image}" alt="{creator_label}" '
+                'width="96" height="96" style="border-radius: 999px; border: 1px solid rgba(0,0,0,0.12);" /></a><br/>'
+            )
+        buy_badge = ""
+        if creator_url:
+            buy_badge = (
+                f'<a href="{creator_url}"><img alt="Buy on Uniswap" '
+                'src="https://img.shields.io/badge/Buy%20on%20Uniswap-Base-0ea5e9?style=for-the-badge" /></a>'
+            )
+
+        lines.extend(
+            [
+                '<table align="center">',
+                "  <tr>",
+                "    <td align=\"center\">",
+                f"      {img_html}<strong>{creator_label}</strong><br/>{buy_badge}",
+                "    </td>",
+                "  </tr>",
+                "</table>",
+            ]
+        )
 
     closing = support.get("closing")
     if closing:
         lines.extend(["", closing])
 
-    lines.extend(["", "---", ""])
-
-    return "\n".join(lines)
+    return "\n".join(lines).strip() + "\n"

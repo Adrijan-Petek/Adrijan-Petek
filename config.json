@@ -9,7 +9,8 @@
     "social": {
         "farcaster": "https://farcaster.xyz/adrijan",
         "x": "https://x.com/adrijan_petek",
-        "zora": "https://zora.co/@adrijan"
+        "zora": "https://zora.co/@adrijan",
+        "typing_svg_enabled": true
     },
     "theme": {
         "primary_color": "#000000",
@@ -19,9 +20,26 @@
         "background_color": "#0d1117"
     },
     "tech_stack": [
-        "Python", "TypeScript", "Java", "HTML5", "CSS3",
-        "VS Code", "Solidity", "Ethereum", "GitHub"
+        "TypeScript",
+        "Python",
+        "Next.js",
+        "React",
+        "Node.js",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "AWS",
+        "Tailwind CSS",
+        "Vercel",
+        "Solidity",
+        "Ethereum",
+        "GitHub"
     ],
+    "ai": {
+        "enabled": true,
+        "focus": "LLM-powered apps and AI tooling",
+        "stack": ["OpenAI API", "Hugging Face", "LangChain", "PyTorch"]
+    },
     "learning_paths": {
         "python": ["Basics", "Files & CSV", "JSON & APIs", "Error Handling", "Modules & Imports", "Classes & Objects"],
         "typescript": ["Basics", "OOP", "Design Patterns"],
@@ -30,9 +48,10 @@
     },
     "support": {
         "enabled": true,
-        "title": "## 💜 Support",
+        "title": "## Support",
         "intro": "If you’d like to support my work, you can buy my Creator Coin on Uniswap (Base).",
         "creator_coin_label": "Creator Coin",
+        "creator_coin_image": "adrijan.gif",
         "creator_coin_uniswap_url": "https://app.uniswap.org/swap?outputCurrency=0xf348930442f3afB04F1f1bbE473C5F57De7b26eb&chain=base"
     }
 }

@@ -60,7 +60,7 @@ def generate_daily_content():
 
 def main():
     """Main function to generate the README"""
-    print("🚀 Generating dynamic GitHub profile...")
+    print("Generating dynamic GitHub profile README...")
 
     # Load configuration
     config = load_config()
@@ -69,25 +69,29 @@ def main():
     daily_content = generate_daily_content()
 
     # Use template-based generation for comprehensive README
-    print("📄 Generating comprehensive README with templates...")
+    print("Generating README from templates...")
 
-    content = header.generate(config, daily_content)
-    content += learning.generate(config, daily_content)
-    content += projects.generate(config, daily_content)
-    content += support.generate(config, daily_content)
-    content += stats.generate(config, daily_content)
-    # content += fun.generate(config, daily_content)  # Temporarily disabled due to file corruption
+    sections = [
+        header.generate(config, daily_content).strip(),
+        learning.generate(config, daily_content).strip(),
+        projects.generate(config, daily_content).strip(),
+        stats.generate(config, daily_content).strip(),
+        support.generate(config, daily_content).strip(),
+        # fun.generate(config, daily_content).strip(),
+    ]
 
-    # Add footer
-    content += f"\n---\n\n⭐️ **Last Updated**: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}  \n"
-    content += "*This README updates daily with new content!* ✨\n"
+    footer = (
+        f"**Last updated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}  \n"
+        "Generated automatically."
+    )
+
+    content = "\n\n---\n\n".join([s for s in sections if s] + [footer]) + "\n"
 
     # Write to README.md
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(content)
 
-    print("✅ README.md generated successfully!")
-    print("🎉 Your profile now has fresh daily content!")
+    print("README.md generated successfully.")
 
 
 def update_html_dynamic_content(html_content, config, daily_content):
