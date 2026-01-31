@@ -12,7 +12,7 @@ import json
 import random
 import glob
 from datetime import datetime
-from templates.components import header, learning, projects, stats, support  # , fun
+from templates.components import header, learning, projects, stats, support, fun
 
 
 def load_config():
@@ -47,7 +47,7 @@ def generate_daily_content():
     return {
         "color_theme": "tokyonight",  # Fixed to black theme
         "spotlight_project": random.choice(projects.get_projects())["name"],
-        "learning_focus": random.choice(learning.get_learning_topics()),
+        "learning_focus": "Web3 integration",
         "theme": {
             "primary": "#000000",
             "secondary": "#1a1a1a",
@@ -77,7 +77,7 @@ def main():
         projects.generate(config, daily_content).strip(),
         stats.generate(config, daily_content).strip(),
         support.generate(config, daily_content).strip(),
-        # fun.generate(config, daily_content).strip(),
+        fun.generate(config, daily_content).strip(),
     ]
 
     footer = (

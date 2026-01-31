@@ -16,7 +16,7 @@
 
 # Adrijan Petek
 
-Mobile app developer · Web3 builder · AI-enabled products
+Full-stack Web3 developer focused on building decentralized applications, on-chain tools, and creative digital experiences.
 
 Building and shipping applications with a focus on performance, security, and clean UX.
 
@@ -31,11 +31,58 @@ Building and shipping applications with a focus on performance, security, and cl
 ## About
 
 <div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">
+  <p><strong>Full-stack Web3 developer</strong> focused on building decentralized applications, on-chain tools, and creative digital experiences.</p>
   <ul>
-    <li><strong>Current focus</strong>: React Fundamentals</li>
-    <li><strong>Building</strong>: web + mobile + onchain integrations</li>
-    <li><strong>AI</strong>: LLM-powered apps and AI tooling</li>
-    <li><strong>Open to</strong>: collaborations and new opportunities</li>
+    <li>Code, creativity, and on-chain craft.</li>
+    <li>Working with Python, Solidity, TypeScript, JavaScript, and more — shipped with intention.</li>
+    <li>Currently exploring Farcaster mini-apps, Base blockchain, smart contracts, decentralized fundraising, NFT minting, and sybil/farm detection tools.</li>
+    <li>Building in public and documenting the journey.</li>
+  </ul>
+</div>
+
+## Current Focus
+
+<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">
+  <ul>
+    <li>Decentralized mini-apps on Farcaster and Base</li>
+    <li>On-chain gaming, meme tools, faith-sharing apps, fundraising platforms</li>
+    <li>Tools to detect coordinated Sybil attacks and farm behavior</li>
+    <li>Full-stack Web3 development (React, Next.js, wagmi, OnchainKit, Farcaster SDK)</li>
+  </ul>
+</div>
+
+## Key Projects (Pinned)
+
+<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">
+  <ul>
+    <li><strong>crypto-landing-page</strong> (TypeScript) — Modern landing page template for crypto projects</li>
+    <li><strong>crypto-self-learning-bot</strong> (Python) — Template for ML-based crypto trading bot with data processing, Random Forest model, and backtesting</li>
+    <li><strong>joybit</strong> (TypeScript) — Decentralized gaming platform on Base with JOYB token economy and multiple games</li>
+    <li><strong>mememint</strong> (TypeScript) — Farcaster Mini App for meme creation, leaderboard tracking, and NFT minting on Base</li>
+    <li><strong>yeshua-christ</strong> (TypeScript) — Mini app for sharing faith, Gospel, and biblical content</li>
+    <li><strong>RaiseFunds</strong> (TypeScript) — Decentralized fundraising on Farcaster with on-chain creation, sharing, and donations</li>
+  </ul>
+</div>
+
+## Recent Activity
+
+<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">
+  <ul>
+    <li>1,537 contributions in the last year</li>
+    <li>Heavy focus in January 2026: 549 commits across 15+ repositories</li>
+    <li>Active development on sybil-shield (detection tool), Base-related full-stack apps, and mini-app experiments</li>
+  </ul>
+</div>
+
+## Tools & Technologies
+
+<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">
+  <ul>
+    <li><strong>Languages</strong>: Python, Solidity, TypeScript, JavaScript</li>
+    <li><strong>Blockchains</strong>: Base, Ethereum</li>
+    <li><strong>Frameworks</strong>: Next.js, React, Tailwind CSS</li>
+    <li><strong>Web3</strong>: wagmi, OnchainKit, Farcaster SDK, ethers/viem</li>
+    <li><strong>Other</strong>: Graph analysis (Cytoscape.js), local-first apps, behavioral pattern detection</li>
   </ul>
 </div>
 
@@ -44,9 +91,10 @@ Building and shipping applications with a focus on performance, security, and cl
 ## Featured projects
 
 <table width="100%" cellspacing="0" cellpadding="6">
-<tr><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://github.com/Adrijan-Petek/python-beginners">Python Beginners</a></div><div style="color:#9ca3af;">Step-by-step Python tutorials</div></div></td><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://farcaster.xyz/adrijan">Farcaster Mini Apps</a></div><div style="color:#9ca3af;">Exploring decentralized applications</div></div></td><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://joybit.vercel.app/">Joybit</a></div><div style="color:#9ca3af;">Interactive gaming platform</div></div></td></tr>
-<tr><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://mememint-one.vercel.app/">Mememint</a></div><div style="color:#9ca3af;">NFT minting platform</div></div></td><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://remix.gg/g/18a5445b-b15f-4bf5-a6d6-219c376633a0">Super Based Cube</a></div><div style="color:#9ca3af;">3D puzzle game on Farcade</div></div></td><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://remix.gg/g/f3da7626-351a-49cc-9fd5-e839018be4bb">BYTE RACERS</a></div><div style="color:#9ca3af;">Racing game on Farcade</div></div></td></tr>
-<tr><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://remix.gg/g/cfa6ed04-a2ec-4a82-866c-268b93774287">Base Defenders</a></div><div style="color:#9ca3af;">Tower defense game on Farcade</div></div></td><td width="33.3%" valign="top">&nbsp;</td><td width="33.3%" valign="top">&nbsp;</td></tr>
+<tr><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://github.com/Adrijan-Petek/Adrijan-Petek">Adrijan-Petek</a></div><div style="color:#9ca3af;">Hi, I’m Adrijan Petek a full-stack Web3 developer passionate about building decentralized apps, crypto tools, and creative digital experiences.  🚀 Exploring React, TypeScript, Python, Solidity, wagmi, OnchainKit, and Farcaster SDK to create modern dApps.</div></div></td><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://github.com/Adrijan-Petek/base-monitor">base-monitor</a></div><div style="color:#9ca3af;">Base Monitor - Reward & Farcaster Correlation Scanner</div></div></td><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://github.com/Adrijan-Petek/crypto-landing-page">crypto-landing-page</a></div><div style="color:#9ca3af;">crypto-landing-page</div></div></td></tr>
+<tr><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://github.com/Adrijan-Petek/dev-joke-bot">dev-joke-bot</a></div><div style="color:#9ca3af;">Random Dev Joke/Quote Bot that updates your README every 12 hours with a new joke and makes it visually fun.</div></div></td><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://github.com/Adrijan-Petek/crypto-self-learning-bot">crypto-self-learning-bot</a></div><div style="color:#9ca3af;">A starter template for a self-learning crypto trading bot.   Includes Python backend scripts for data ingestion, feature engineering, a simple ML model (Random Forest), a self-learning loop, backtesting utilities, sample reports, and a minimal web placeholder.</div></div></td><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://github.com/Adrijan-Petek/multi-chain-reward-scanner">multi-chain-reward-scanner</a></div><div style="color:#9ca3af;">multi-chain-reward-scanner — daily scanner that checks Base, Optimism and Arbitrum</div></div></td></tr>
+<tr><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://github.com/Adrijan-Petek/challenge-over-collateralized-lending">challenge-over-collateralized-lending</a></div><div style="color:#9ca3af;">—</div></div></td><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://github.com/Adrijan-Petek/ai-dao-treasury">ai-dao-treasury</a></div><div style="color:#9ca3af;">AI-Assisted DAO Treasury is a developer template that demonstrates a minimal on-chain DAO treasury with off-chain ML-assisted proposals.</div></div></td><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://github.com/Adrijan-Petek/onchain_search_boolean_prototype">onchain_search_boolean_prototype</a></div><div style="color:#9ca3af;"># On-Chain Boolean Queries Prototype</div></div></td></tr>
+<tr><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://github.com/Adrijan-Petek/crypto-news-sentiment-analyzer">crypto-news-sentiment-analyzer</a></div><div style="color:#9ca3af;">Backend script that fetches headlines, runs sentiment analysis, and writes reports to `reports/`.</div></div></td><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://github.com/Adrijan-Petek/gas-fee-optimizer">gas-fee-optimizer</a></div><div style="color:#9ca3af;">Small utility that polls RPC endpoints for Base / Optimism / Arbitrum, writes timestamped JSON reports into `reports/`, and can post to a webhook.</div></div></td><td width="33.3%" valign="top"><div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);"><div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="https://github.com/Adrijan-Petek/airdrop-finder">airdrop-finder</a></div><div style="color:#9ca3af;">Airdrop Finder scans a list of wallets across Base, Optimism, and Arbitrum.</div></div></td></tr>
 </table>
 
 ---
@@ -101,5 +149,13 @@ If you’d like to support my work, you can buy my Creator Coin on Uniswap (Base
 
 ---
 
-**Last updated:** 2026-01-31 20:56:27  
+## Daily Byte
+
+<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">
+  <em>Deployed a smart contract today. It was so immutable it wouldn’t even accept my last-minute changes.</em>
+</div>
+
+---
+
+**Last updated:** 2026-01-31 21:03:11  
 Generated automatically.

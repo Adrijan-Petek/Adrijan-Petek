@@ -4,7 +4,7 @@
     "user": {
         "name": "Adrijan Petek",
         "github": "Adrijan-Petek",
-        "tagline": "Mobile app developer · Web3 builder · AI-enabled products",
+        "tagline": "Full-stack Web3 developer focused on building decentralized applications, on-chain tools, and creative digital experiences.",
         "learning_repo": "https://github.com/Adrijan-Petek/python-beginners"
     },
     "social": {
@@ -39,49 +39,102 @@
     "ai": {
         "enabled": true,
         "focus": "LLM-powered apps and AI tooling",
-        "stack": ["OpenAI API", "Hugging Face", "LangChain", "PyTorch"]
+        "stack": [
+            "OpenAI API",
+            "Hugging Face",
+            "LangChain",
+            "PyTorch"
+        ]
     },
     "learning_paths": {
-        "python": ["Basics", "Files & CSV", "JSON & APIs", "Error Handling", "Modules & Imports", "Classes & Objects"],
-        "typescript": ["Basics", "OOP", "Design Patterns"],
-        "web_dev": ["HTML & CSS", "JavaScript", "React", "Responsive Design"],
-        "blockchain": ["Solidity Basics", "Ethereum", "Web3", "DApps", "NFTs", "Smart Contract Security"]
+        "python": [
+            "Basics",
+            "Files & CSV",
+            "JSON & APIs",
+            "Error Handling",
+            "Modules & Imports",
+            "Classes & Objects"
+        ],
+        "typescript": [
+            "Basics",
+            "OOP",
+            "Design Patterns"
+        ],
+        "web_dev": [
+            "HTML & CSS",
+            "JavaScript",
+            "React",
+            "Responsive Design"
+        ],
+        "blockchain": [
+            "Solidity Basics",
+            "Ethereum",
+            "Web3",
+            "DApps",
+            "NFTs",
+            "Smart Contract Security"
+        ]
     },
     "projects": [
         {
-            "name": "Python Beginners",
-            "url": "https://github.com/Adrijan-Petek/python-beginners",
-            "description": "Step-by-step Python tutorials"
+            "name": "Adrijan-Petek",
+            "url": "https://github.com/Adrijan-Petek/Adrijan-Petek",
+            "description": "Hi, I’m Adrijan Petek a full-stack Web3 developer passionate about building decentralized apps, crypto tools, and creative digital experiences.  🚀 Exploring React, TypeScript, Python, Solidity, wagmi, OnchainKit, and Farcaster SDK to create modern dApps."
         },
         {
-            "name": "Farcaster Mini Apps",
-            "url": "https://farcaster.xyz/adrijan",
-            "description": "Exploring decentralized applications"
+            "name": "base-monitor",
+            "url": "https://github.com/Adrijan-Petek/base-monitor",
+            "description": "Base Monitor - Reward & Farcaster Correlation Scanner"
         },
         {
-            "name": "Joybit",
-            "url": "https://joybit.vercel.app/",
-            "description": "Interactive gaming platform"
+            "name": "crypto-landing-page",
+            "url": "https://github.com/Adrijan-Petek/crypto-landing-page",
+            "description": "crypto-landing-page"
         },
         {
-            "name": "Mememint",
-            "url": "https://mememint-one.vercel.app/",
-            "description": "NFT minting platform"
+            "name": "dev-joke-bot",
+            "url": "https://github.com/Adrijan-Petek/dev-joke-bot",
+            "description": "Random Dev Joke/Quote Bot that updates your README every 12 hours with a new joke and makes it visually fun."
         },
         {
-            "name": "Super Based Cube",
-            "url": "https://remix.gg/g/18a5445b-b15f-4bf5-a6d6-219c376633a0",
-            "description": "3D puzzle game on Farcade"
+            "name": "crypto-self-learning-bot",
+            "url": "https://github.com/Adrijan-Petek/crypto-self-learning-bot",
+            "description": "A starter template for a self-learning crypto trading bot.   Includes Python backend scripts for data ingestion, feature engineering, a simple ML model (Random Forest), a self-learning loop, backtesting utilities, sample reports, and a minimal web placeholder."
         },
         {
-            "name": "BYTE RACERS",
-            "url": "https://remix.gg/g/f3da7626-351a-49cc-9fd5-e839018be4bb",
-            "description": "Racing game on Farcade"
+            "name": "multi-chain-reward-scanner",
+            "url": "https://github.com/Adrijan-Petek/multi-chain-reward-scanner",
+            "description": "multi-chain-reward-scanner — daily scanner that checks Base, Optimism and Arbitrum"
         },
         {
-            "name": "Base Defenders",
-            "url": "https://remix.gg/g/cfa6ed04-a2ec-4a82-866c-268b93774287",
-            "description": "Tower defense game on Farcade"
+            "name": "challenge-over-collateralized-lending",
+            "url": "https://github.com/Adrijan-Petek/challenge-over-collateralized-lending",
+            "description": "—"
+        },
+        {
+            "name": "ai-dao-treasury",
+            "url": "https://github.com/Adrijan-Petek/ai-dao-treasury",
+            "description": "AI-Assisted DAO Treasury is a developer template that demonstrates a minimal on-chain DAO treasury with off-chain ML-assisted proposals."
+        },
+        {
+            "name": "onchain_search_boolean_prototype",
+            "url": "https://github.com/Adrijan-Petek/onchain_search_boolean_prototype",
+            "description": "# On-Chain Boolean Queries Prototype"
+        },
+        {
+            "name": "crypto-news-sentiment-analyzer",
+            "url": "https://github.com/Adrijan-Petek/crypto-news-sentiment-analyzer",
+            "description": "Backend script that fetches headlines, runs sentiment analysis, and writes reports to `reports/`."
+        },
+        {
+            "name": "gas-fee-optimizer",
+            "url": "https://github.com/Adrijan-Petek/gas-fee-optimizer",
+            "description": "Small utility that polls RPC endpoints for Base / Optimism / Arbitrum, writes timestamped JSON reports into `reports/`, and can post to a webhook."
+        },
+        {
+            "name": "airdrop-finder",
+            "url": "https://github.com/Adrijan-Petek/airdrop-finder",
+            "description": "Airdrop Finder scans a list of wallets across Base, Optimism, and Arbitrum."
         }
     ],
     "support": {
