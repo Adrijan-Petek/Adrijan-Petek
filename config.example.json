@@ -10,7 +10,12 @@
         "x": "https://x.com/your-handle",
         "farcaster": "https://farcaster.xyz/your-handle",
         "zora": "https://zora.co/@your-handle",
-        "typing_svg_enabled": false
+        "base_profile": "https://base.app/profile/your-address",
+        "base_invite": "https://base.app/invite/your-handle/XXXXXXX",
+        "farcaster_invite": "https://farcaster.xyz/~/code/XXXXXX",
+        "zora_invite": "https://zora.co/invite/your-handle",
+        "self_referral": "https://referral.self.xyz/referral/your-address",
+        "typing_svg_enabled": true
     },
     "tech_stack": [
         "TypeScript",

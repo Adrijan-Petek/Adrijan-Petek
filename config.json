@@ -11,7 +11,12 @@
         "farcaster": "https://farcaster.xyz/adrijan",
         "x": "https://x.com/adrijan_petek",
         "zora": "https://zora.co/@adrijan",
-        "typing_svg_enabled": false
+        "base_profile": "https://base.app/profile/0xEbd001b69E71Df928a7581157eE41F7e2F56d685",
+        "base_invite": "https://base.app/invite/adrijan/40C0MKL6",
+        "farcaster_invite": "https://farcaster.xyz/~/code/S689QM",
+        "zora_invite": "https://zora.co/invite/adrijan",
+        "self_referral": "https://referral.self.xyz/referral/0x0863B2FA45FDd0187Eb41b41808C13c28D6dDA07",
+        "typing_svg_enabled": true
     },
     "theme": {
         "primary_color": "#000000",
@@ -77,64 +82,39 @@
     },
     "projects": [
         {
-            "name": "Adrijan-Petek",
-            "url": "https://github.com/Adrijan-Petek/Adrijan-Petek",
-            "description": "Hi, I’m Adrijan Petek a full-stack Web3 developer passionate about building decentralized apps, crypto tools, and creative digital experiences.  🚀 Exploring React, TypeScript, Python, Solidity, wagmi, OnchainKit, and Farcaster SDK to create modern dApps."
+            "name": "Python Beginners",
+            "url": "https://github.com/Adrijan-Petek/python-beginners",
+            "description": "Step-by-step Python tutorials"
         },
         {
-            "name": "base-monitor",
-            "url": "https://github.com/Adrijan-Petek/base-monitor",
-            "description": "Base Monitor - Reward & Farcaster Correlation Scanner"
+            "name": "Farcaster Mini Apps",
+            "url": "https://farcaster.xyz/adrijan",
+            "description": "Exploring decentralized applications"
         },
         {
-            "name": "crypto-landing-page",
-            "url": "https://github.com/Adrijan-Petek/crypto-landing-page",
-            "description": "crypto-landing-page"
+            "name": "Joybit",
+            "url": "https://joybit.vercel.app/",
+            "description": "Interactive gaming platform"
         },
         {
-            "name": "dev-joke-bot",
-            "url": "https://github.com/Adrijan-Petek/dev-joke-bot",
-            "description": "Random Dev Joke/Quote Bot that updates your README every 12 hours with a new joke and makes it visually fun."
+            "name": "Mememint",
+            "url": "https://mememint-one.vercel.app/",
+            "description": "NFT minting platform"
         },
         {
-            "name": "crypto-self-learning-bot",
-            "url": "https://github.com/Adrijan-Petek/crypto-self-learning-bot",
-            "description": "A starter template for a self-learning crypto trading bot.   Includes Python backend scripts for data ingestion, feature engineering, a simple ML model (Random Forest), a self-learning loop, backtesting utilities, sample reports, and a minimal web placeholder."
+            "name": "Super Based Cube",
+            "url": "https://remix.gg/g/18a5445b-b15f-4bf5-a6d6-219c376633a0",
+            "description": "3D puzzle game on Farcade"
         },
         {
-            "name": "multi-chain-reward-scanner",
-            "url": "https://github.com/Adrijan-Petek/multi-chain-reward-scanner",
-            "description": "multi-chain-reward-scanner — daily scanner that checks Base, Optimism and Arbitrum"
+            "name": "BYTE RACERS",
+            "url": "https://remix.gg/g/f3da7626-351a-49cc-9fd5-e839018be4bb",
+            "description": "Racing game on Farcade"
         },
         {
-            "name": "challenge-over-collateralized-lending",
-            "url": "https://github.com/Adrijan-Petek/challenge-over-collateralized-lending",
-            "description": "—"
-        },
-        {
-            "name": "ai-dao-treasury",
-            "url": "https://github.com/Adrijan-Petek/ai-dao-treasury",
-            "description": "AI-Assisted DAO Treasury is a developer template that demonstrates a minimal on-chain DAO treasury with off-chain ML-assisted proposals."
-        },
-        {
-            "name": "onchain_search_boolean_prototype",
-            "url": "https://github.com/Adrijan-Petek/onchain_search_boolean_prototype",
-            "description": "# On-Chain Boolean Queries Prototype"
-        },
-        {
-            "name": "crypto-news-sentiment-analyzer",
-            "url": "https://github.com/Adrijan-Petek/crypto-news-sentiment-analyzer",
-            "description": "Backend script that fetches headlines, runs sentiment analysis, and writes reports to `reports/`."
-        },
-        {
-            "name": "gas-fee-optimizer",
-            "url": "https://github.com/Adrijan-Petek/gas-fee-optimizer",
-            "description": "Small utility that polls RPC endpoints for Base / Optimism / Arbitrum, writes timestamped JSON reports into `reports/`, and can post to a webhook."
-        },
-        {
-            "name": "airdrop-finder",
-            "url": "https://github.com/Adrijan-Petek/airdrop-finder",
-            "description": "Airdrop Finder scans a list of wallets across Base, Optimism, and Arbitrum."
+            "name": "Base Defenders",
+            "url": "https://remix.gg/g/cfa6ed04-a2ec-4a82-866c-268b93774287",
+            "description": "Tower defense game on Farcade"
         }
     ],
     "support": {

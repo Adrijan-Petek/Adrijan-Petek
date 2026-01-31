@@ -152,6 +152,16 @@ def generate(config, daily_content):
         links.append(f"[Zora]({social['zora']})")
     if social.get("farcaster"):
         links.append(f"[Farcaster]({social['farcaster']})")
+    if social.get("base_profile"):
+        links.append(f"[Base Profile]({social['base_profile']})")
+    if social.get("base_invite"):
+        links.append(f"[Base Invite]({social['base_invite']})")
+    if social.get("farcaster_invite"):
+        links.append(f"[Farcaster Invite]({social['farcaster_invite']})")
+    if social.get("zora_invite"):
+        links.append(f"[Zora Invite]({social['zora_invite']})")
+    if social.get("self_referral"):
+        links.append(f"[Self Referral]({social['self_referral']})")
     if website:
         links.append(f"[Website]({website})")
 
