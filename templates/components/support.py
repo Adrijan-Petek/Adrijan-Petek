@@ -22,7 +22,7 @@ def generate(config, daily_content):
     intro = support.get("intro") or "If you’d like to support my work:"
     creator_label = support.get("creator_coin_label") or "Creator Coin"
 
-    lines = [title, "", intro, ""]
+    lines = [title, ""]
 
     if creator_url or creator_image:
         img_html = ""
@@ -43,14 +43,17 @@ def generate(config, daily_content):
             )
 
         lines.append(
-            '<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);" align="center">'
+            '<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:16px; background:rgba(255,255,255,0.02);">'
         )
         lines.append('<table width="100%" cellspacing="0" cellpadding="6">')
         lines.append("  <tr>")
-        left = f"{img_html}<br/><strong>{creator_label}</strong>" if img_html else f"<strong>{creator_label}</strong>"
-        right = buy_badge or ""
-        lines.append(f'    <td width="50%" align="center">{left}</td>')
-        lines.append(f'    <td width="50%" align="center">{right}</td>')
+        lines.append(f'    <td width="50%" valign="middle">{intro}</td>')
+        right = (
+            f'<div align="center">{img_html}<br/><strong>{creator_label}</strong><br/><br/>{buy_badge}</div>'
+            if img_html or buy_badge
+            else ""
+        )
+        lines.append(f'    <td width="50%" valign="middle">{right}</td>')
         lines.append("  </tr>")
         lines.append("</table>")
         lines.append("</div>")
