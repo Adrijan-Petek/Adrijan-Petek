@@ -78,7 +78,7 @@ def generate(config, daily_content):
         + tech_badges
         + "\n\n  </div>\n"
         + "</div>\n",
-        "\n## GitHub Stats\n"
+        "\n\n## GitHub Stats\n"
         + '<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">\n\n'
         + '<div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">\n'
         + '  <div align="center">\n\n'
@@ -97,7 +97,7 @@ def generate(config, daily_content):
                 '<div align="center">\n\n' + ai_badges + "\n\n</div>\n"
             )
         parts.append(
-            "\n## AI\n"
+            "\n\n## AI\n"
             + '<hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">\n\n'
             + '<div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">\n'
             + focus_line
@@ -105,4 +105,4 @@ def generate(config, daily_content):
             + "</div>\n"
         )
 
-    return "\n".join([p.strip() for p in parts if p.strip()]) + "\n"
+    return "\n\n".join([p.strip() for p in parts if p.strip()]) + "\n"
