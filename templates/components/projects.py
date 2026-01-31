@@ -1,4 +1,7 @@
-def get_projects():
+def get_projects(config=None):
+    if config and isinstance(config.get("projects"), list) and config["projects"]:
+        return config["projects"]
+
     return [
         {
             "name": "Python Beginners",
@@ -39,27 +42,31 @@ def get_projects():
 
 
 def generate(config, daily_content):
-    projects_list = get_projects()
+    projects_list = get_projects(config)
+
+    def card(project):
+        if not project:
+            return "&nbsp;"
+        description = project.get("description") or ""
+        return (
+            '<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);">'
+            f'<div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="{project["url"]}">{project["name"]}</a></div>'
+            f'<div style="color:#9ca3af;">{description}</div>'
+            "</div>"
+        )
 
     rows = []
-    for idx in range(0, len(projects_list), 2):
-        left = projects_list[idx]
-        right = projects_list[idx + 1] if idx + 1 < len(projects_list) else None
-
-        def card(p):
-            if not p:
-                return "&nbsp;"
-            return (
-                '<div style="border:1px solid rgba(0,0,0,0.12); border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);">'
-                f'<div style="font-weight:700; font-size:1.05em; margin-bottom:6px;"><a href="{p["url"]}">{p["name"]}</a></div>'
-                f'<div style="color:#9ca3af;">{p["description"]}</div>'
-                "</div>"
-            )
-
+    for idx in range(0, len(projects_list), 3):
+        cols = [
+            projects_list[idx] if idx < len(projects_list) else None,
+            projects_list[idx + 1] if idx + 1 < len(projects_list) else None,
+            projects_list[idx + 2] if idx + 2 < len(projects_list) else None,
+        ]
         rows.append(
             "<tr>"
-            f'<td width="50%" valign="top">{card(left)}</td>'
-            f'<td width="50%" valign="top">{card(right)}</td>'
+            f'<td width="33.3%" valign="top">{card(cols[0])}</td>'
+            f'<td width="33.3%" valign="top">{card(cols[1])}</td>'
+            f'<td width="33.3%" valign="top">{card(cols[2])}</td>'
             "</tr>"
         )
 

@@ -32,6 +32,13 @@
         "web_dev": ["HTML & CSS", "JavaScript", "React", "Responsive Design"],
         "blockchain": ["Solidity Basics", "Ethereum", "Web3", "DApps", "NFTs", "Smart Contract Security"]
     },
+    "projects": [
+        {
+            "name": "Project Name",
+            "url": "https://github.com/your-username/your-repo",
+            "description": "One-line description"
+        }
+    ],
     "ai": {
         "enabled": true,
         "focus": "LLM-powered apps and automation",
