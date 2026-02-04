@@ -13,7 +13,7 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=2000&color=0ea5e9&center=true&vCenter=true&width=920&lines=AI+Enabled+Apps;Onchain+Integrations;Product+Engineering;Always+Shipping" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=2000&color=0ea5e9&center=true&vCenter=true&width=920&lines=Mobile+App+Developer;Web3+Builder;TypeScript+%2F+Python;Shipping+to+Production" alt="Typing SVG" />
 </p>
 
 <div align="center" style="margin-top: 6px;">
@@ -225,4 +225,4 @@ Building and shipping applications with a focus on performance, security, and cl
 
 ---
 
-**Last updated:** 2026-02-03 00:46:53 UTC
+**Last updated:** 2026-02-04 00:42:42 UTC
