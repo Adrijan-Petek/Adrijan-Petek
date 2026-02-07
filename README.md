@@ -13,7 +13,7 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=2000&color=0ea5e9&center=true&vCenter=true&width=920&lines=Mobile+App+Developer;Web3+Builder;TypeScript+%2F+Python;Shipping+to+Production" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=2000&color=0ea5e9&center=true&vCenter=true&width=920&lines=Cross-Platform+Apps;Clean+UX;Solidity+%2F+EVM;Performance+%26+Security" alt="Typing SVG" />
 </p>
 
 <div align="center" style="margin-top: 6px;">
@@ -220,9 +220,9 @@ Building and shipping applications with a focus on performance, security, and cl
 <hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
-  <em>On-chain tools are like good APIs: boring on the outside, powerful on the inside.</em>
+  <em>Shipped a feature in one try. That’s how I know I forgot something.</em>
 </div>
 
 ---
 
-**Last updated:** 2026-02-06 00:43:28 UTC
+**Last updated:** 2026-02-07 00:43:57 UTC
