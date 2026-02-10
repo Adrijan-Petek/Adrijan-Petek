@@ -1,4 +1,3 @@
-
 <div align="center">
   <img src="img/github-header-banner.png" alt="Header Banner" style="
     width: 100%;
