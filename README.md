@@ -1,20 +1,19 @@
-
 <div align="center">
   <img src="img/github-header-banner.png" alt="Header Banner" style="
     width: 100%;
     max-height: 240px;
     object-fit: cover;
-    border-radius: 14px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.16);
-    border: 1px solid rgba(0,0,0,0.14);
-    filter: brightness(1.02);
+    border-radius: 16px;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.18);
+    border: 1px solid rgba(0,0,0,0.12);
+    filter: none;
     margin-bottom: 1.25rem;
   " />
 </div>
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=2000&color=0ea5e9&center=true&vCenter=true&width=920&lines=Mobile+App+Developer;Web3+Builder;TypeScript+%2F+Python;Shipping+to+Production" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=2000&color=0ea5e9&center=true&vCenter=true&width=920&lines=AI+Enabled+Apps;Onchain+Integrations;Product+Engineering;Always+Shipping" alt="Typing SVG" />
 </p>
 
 <div align="center" style="margin-top: 6px;">
@@ -226,4 +225,4 @@ Building and shipping applications with a focus on performance, security, and cl
 
 ---
 
-**Last updated:** 2026-02-11 00:52:07 UTC
+**Last updated:** 2026-02-12 00:47:07 UTC
