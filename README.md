@@ -3,10 +3,10 @@
     width: 100%;
     max-height: 240px;
     object-fit: cover;
-    border-radius: 16px;
-    box-shadow: 0 10px 24px rgba(0,0,0,0.18);
-    border: 1px solid rgba(0,0,0,0.12);
-    filter: none;
+    border-radius: 18px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.22);
+    border: 1px solid rgba(0,0,0,0.10);
+    filter: contrast(1.03) saturate(1.05);
     margin-bottom: 1.25rem;
   " />
 </div>
@@ -220,9 +220,9 @@ Building and shipping applications with a focus on performance, security, and cl
 <hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
-  <em>Why did the dApp break up with the database? It needed more decentralization in the relationship.</em>
+  <em>Blockchain tip of the day: if it can’t be verified, it can’t be trusted.</em>
 </div>
 
 ---
 
-**Last updated:** 2026-02-28 00:40:54 UTC
+**Last updated:** 2026-03-01 00:52:26 UTC
