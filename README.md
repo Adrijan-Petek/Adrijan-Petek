@@ -13,7 +13,7 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=2000&color=0ea5e9&center=true&vCenter=true&width=920&lines=AI+Enabled+Apps;Onchain+Integrations;Product+Engineering;Always+Shipping" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=2000&color=0ea5e9&center=true&vCenter=true&width=920&lines=Mobile+App+Developer;Web3+Builder;TypeScript+%2F+Python;Shipping+to+Production" alt="Typing SVG" />
 </p>
 
 <div align="center" style="margin-top: 6px;">
@@ -220,9 +220,9 @@ Building and shipping applications with a focus on performance, security, and cl
 <hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
-  <em>Shipped a feature in one try. That’s how I know I forgot something.</em>
+  <em>Deployed a smart contract today. It was so immutable it wouldn’t even accept my last-minute changes.</em>
 </div>
 
 ---
 
-**Last updated:** 2026-03-09 00:46:48 UTC
+**Last updated:** 2026-03-10 00:42:17 UTC
