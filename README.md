@@ -220,9 +220,9 @@ Building and shipping applications with a focus on performance, security, and cl
 <hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
-  <em>Why did the dApp break up with the database? It needed more decentralization in the relationship.</em>
+  <em>Deployed a smart contract today. It was so immutable it wouldn’t even accept my last-minute changes.</em>
 </div>
 
 ---
 
-**Last updated:** 2026-03-31 00:51:13 UTC
+**Last updated:** 2026-04-01 00:56:47 UTC
