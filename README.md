@@ -220,9 +220,9 @@ Building and shipping applications with a focus on performance, security, and cl
 <hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
-  <em>Blockchain tip of the day: if it can’t be verified, it can’t be trusted.</em>
+  <em>Shipped a feature in one try. That’s how I know I forgot something.</em>
 </div>
 
 ---
 
-**Last updated:** 2026-04-08 00:52:38 UTC
+**Last updated:** 2026-04-09 00:44:23 UTC
