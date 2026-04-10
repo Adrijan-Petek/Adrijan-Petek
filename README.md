@@ -3,17 +3,17 @@
     width: 100%;
     max-height: 240px;
     object-fit: cover;
-    border-radius: 18px;
-    box-shadow: 0 12px 28px rgba(0,0,0,0.22);
-    border: 1px solid rgba(0,0,0,0.10);
-    filter: contrast(1.03) saturate(1.05);
+    border-radius: 16px;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.18);
+    border: 1px solid rgba(0,0,0,0.12);
+    filter: none;
     margin-bottom: 1.25rem;
   " />
 </div>
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=2000&color=0ea5e9&center=true&vCenter=true&width=920&lines=Mobile+App+Developer;Web3+Builder;TypeScript+%2F+Python;Shipping+to+Production" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=2000&color=0ea5e9&center=true&vCenter=true&width=920&lines=Cross-Platform+Apps;Clean+UX;Solidity+%2F+EVM;Performance+%26+Security" alt="Typing SVG" />
 </p>
 
 <div align="center" style="margin-top: 6px;">
@@ -220,9 +220,9 @@ Building and shipping applications with a focus on performance, security, and cl
 <hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
-  <em>Shipped a feature in one try. That’s how I know I forgot something.</em>
+  <em>Why did the dApp break up with the database? It needed more decentralization in the relationship.</em>
 </div>
 
 ---
 
-**Last updated:** 2026-04-09 00:44:23 UTC
+**Last updated:** 2026-04-10 00:52:01 UTC
