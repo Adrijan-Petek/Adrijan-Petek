@@ -3,10 +3,10 @@
     width: 100%;
     max-height: 240px;
     object-fit: cover;
-    border-radius: 14px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.16);
-    border: 1px solid rgba(0,0,0,0.14);
-    filter: brightness(1.02);
+    border-radius: 16px;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.18);
+    border: 1px solid rgba(0,0,0,0.12);
+    filter: none;
     margin-bottom: 1.25rem;
   " />
 </div>
@@ -220,9 +220,9 @@ Building and shipping applications with a focus on performance, security, and cl
 <hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
-  <em>Shipped a feature in one try. That’s how I know I forgot something.</em>
+  <em>Deployed a smart contract today. It was so immutable it wouldn’t even accept my last-minute changes.</em>
 </div>
 
 ---
 
-**Last updated:** 2026-04-13 00:58:00 UTC
+**Last updated:** 2026-04-14 00:57:20 UTC
