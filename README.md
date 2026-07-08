@@ -3,10 +3,10 @@
     width: 100%;
     max-height: 240px;
     object-fit: cover;
-    border-radius: 14px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.16);
-    border: 1px solid rgba(0,0,0,0.14);
-    filter: brightness(1.02);
+    border-radius: 18px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.22);
+    border: 1px solid rgba(0,0,0,0.10);
+    filter: contrast(1.03) saturate(1.05);
     margin-bottom: 1.25rem;
   " />
 </div>
@@ -220,9 +220,9 @@ Building and shipping applications with a focus on performance, security, and cl
 <hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
-  <em>Why did the dApp break up with the database? It needed more decentralization in the relationship.</em>
+  <em>Shipped a feature in one try. That’s how I know I forgot something.</em>
 </div>
 
 ---
 
-**Last updated:** 2026-07-07 04:06:47 UTC
+**Last updated:** 2026-07-08 03:32:10 UTC
