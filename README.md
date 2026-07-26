@@ -202,7 +202,11 @@ Building and shipping applications with a focus on performance, security, and cl
 
 ---
 
-## Support
+## ☕ Support
+
+Your support helps me continue creating open-source projects, exploring AI, Web3, gaming, and digital creativity.
+
+[☕ Buy Me a Coffee](https://ko-fi.com/adrijanp1)
 
 <hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
