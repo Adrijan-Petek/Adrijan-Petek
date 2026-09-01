@@ -220,9 +220,9 @@ Building and shipping applications with a focus on performance, security, and cl
 <hr style="border:0;border-top:1px solid rgba(14,165,233,0.35); margin:10px 0 16px 0;">
 
 <div style="border:1px solid rgba(14,165,233,0.35); border-radius:14px; padding:16px; background:rgba(14,165,233,0.04);">
-  <em>On-chain tools are like good APIs: boring on the outside, powerful on the inside.</em>
+  <em>Shipped a feature in one try. That’s how I know I forgot something.</em>
 </div>
 
 ---
 
-**Last updated:** 2026-08-31 05:12:35 UTC
+**Last updated:** 2026-09-01 04:48:09 UTC
